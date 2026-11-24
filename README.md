@@ -1,7 +1,7 @@
 # 📱 Digital Marketing — Master Visual Study Guide
 ### MBA Semester 3 | Amity University | Course Code: MKTG733
 **Faculty:** Dr. Priyanka Nahush Agarwal  
-**Midterm Syllabus Scope:** Modules 1, 2, 3 & 5
+**End-Term Examination Master Syllabus:** All 5 Modules (100% Comprehensive Coverage)
 
 🌐 **Live Website Link (Read on Phone / Desktop):**  
 👉 **[https://rohnit20.github.io/DMNotes/](https://rohnit20.github.io/DMNotes/)**
@@ -9,62 +9,60 @@
 ---
 
 ## 📖 About This Repository
-This repository hosts the complete, comprehensive, and visual study notes for the Digital Marketing (MKTG733) Midterm Examination. It synthesizes all **8 PowerPoint presentations**, the **syllabus guidelines**, and **in-depth class dictation** into a continuous, story-driven learning guide.
+This repository hosts the complete, comprehensive, and visual study notes for the Digital Marketing (MKTG733) End-Term Examination. It synthesizes all **PowerPoint presentations**, the **official syllabus**, **in-depth class dictation**, and the **Web Analytics Question Bank & Case Studies** into a continuous, story-driven learning guide.
 
 Designed for a **2-hour rapid revision session the night before the exam**, featuring:
-- **24 Pure CSS Flowcharts, Staircases, Pyramids & 2x2 Matrices**
+- **Pure CSS Flowcharts, Architectural Pyramids, Hub-and-Spoke Ecosystems & 2x2 Matrices**
 - **146 Slide Figures & Diagrams Extracted Directly from Class PPTs**
-- **10 Detailed Model Exam Questions & Answers**
-- **Step-by-Step Numerical Case Study with Interpretations**
-- **Mobile-Responsive UI** optimized for smartphones and tablets
+- **All 5 Modules Fully Integrated**: Including the new **Module 4: Social Media Optimization (20%)** and **Module 5: Web Analytics (25%)**
+- **The Pyramid Model of Web Analytics Data** (Hits &rarr; Page Views &rarr; Visits &rarr; Unique Visitors &rarr; Uniquely Identified Visitors)
+- **15 Web Analytics Tools Deep Dive** (GA4, Hotjar, Adobe Analytics, Amplitude, Crazy Egg, FullStory, Mixpanel, etc.)
+- **Crawl Errors Taxonomy** (Site Errors vs. URL Errors, 5xx server codes, DNS, robots.txt, 404, 410, 301, 302)
+- **15 High-Yield Model Exam Questions & Answers** with case studies (StyleKart & LearnUp)
+- **Master Formula Cheatsheet** with 18 core digital marketing & analytics formulas
+- **Mobile-Responsive UI** with sidebar navigation optimized for smartphones and tablets
 
 ---
 
 ## 🗺️ Syllabus Architecture & Module Breakdown
 
-| Module | Core Subject Focus | Syllabus Weightage |
+| Module | Core Subject Focus | Exam Weightage |
 |:---|:---|:---:|
-| **Module 1** | **Digital Marketing Fundamentals & Business Models**<br>• The 8 Marketing Eras (Trade &rarr; Production &rarr; Product &rarr; Sales &rarr; Marketing &rarr; Relationship &rarr; Digital &rarr; AI)<br>• Web Evolution 0.0 to 5.0 Staircase<br>• Digital Marketing vs. Online Marketing Nested Venn<br>• ROI & Traditional vs. Digital Marketing<br>• Paid, Owned & Earned Media Triangle<br>• Inbound vs. Outbound Push/Pull Grid<br>• The 6 I's of Internet Marketing & Digital Toolbox<br>• Digital Transformation Hub-and-Spoke Ecosystem<br>• ASCOR Execution Pipeline & The 7Ds Framework<br>• 5-Stage Conversion Funnel with Stage-Specific KPIs<br>• Omnichannel vs. Multi-Channel Strategy | **15%** |
-| **Module 1B** | **E-Commerce Platform Models & Value Chains**<br>• Marketplace Triad (Demand, Supply, Dynamic Price)<br>• E-Commerce Models Tree (Marketplace vs. Direct; B2B & B2C)<br>• The 5 Core Revenue Models (Ad, Sub, Trans, Sales, Affiliate)<br>• Extended Models: Wholesale, Dropshipping, White Label, Freemium (Habit Loop)<br>• White Labeling vs. Outsourcing (Key Exam Distinction!)<br>• 8 Key Ingredients of an E-Commerce Business Model<br>• Porter's Classic Value Chain vs. Virtual Value Chain (5 Information Steps)<br>• 3 Stages of Marketplace &rarr; Marketspace Transformation<br>• Online Market Research (Primary vs. Secondary; 6 Research Tools) | *(Part of M1)* |
-| **Module 1C** | **Online Consumer Behavior & Decision Psychology**<br>• Definition of Consumer Buying Behavior<br>• **★ The Consumer Behavior 2x2 Matrix** (Complex, Dissonance-Reducing, Variety-Seeking, Habitual)<br>• 3 Levels of Problem Solving & Impulse Buying<br>• The 5-Stage Consumer Buying Decision Process Flowchart<br>• **Cognitive Dissonance (Buyer's Remorse)** & Tension Resolution Flowchart<br>• Taxonomy of Consumer Involvement (Situational, Product, Cognitive, Emotional)<br>• 3-Stage Perception Filter (Exposure &rarr; Distortion &rarr; Retention)<br>• Attitude Architecture: The Tri-Component CAB Model<br>• Reference Groups (Membership, Aspirational, Disassociative) & Opinion Leaders | *(Part of M1)* |
-| **Module 2** | **Website Planning, Architecture & UX/UI**<br>• UX vs. UI & Customer Churn Rate Psychology<br>• The 7 Architectural Levels of Websites (Splash to Web App)<br>• Navigation Structural Models (Hierarchical, Sequential, Webbed)<br>• Websites vs. Blogs (Static vs. Dynamic Publishing)<br>• Static vs. Dynamic Web Architecture (Client-Side vs. Database Server)<br>• URL Anatomy Visual (Protocol, Subdomain, SLD, TLD, gTLD, ccTLD)<br>• SMART Website Goals & High-Converting Page Anatomy (Home, Product, Pricing, Contact)<br>• Website Audits & Core Web Vitals | **20%** |
-| **Module 3** | **Search Engine Marketing (SEO & SEM) & Email Retention**<br>• SEM Master Hierarchy Tree (SEM = Organic SEO + Paid PPC)<br>• The Foundational Paradox: *"You are aware but not found"*<br>• Keyword Anatomy Pyramid (Fat Head, Chunky Middle, Long Tail)<br>• The 4 Search Intents (Informational, Navigational, Commercial, Transactional)<br>• 8-Step Keyword Research Methodology<br>• **On-Page SEO: 10 Critical Techniques** & Placement Priority Order<br>• **Off-Page SEO: 10 Authority Techniques** & Backlink Architecture<br>• Link Building Deep Dive (Link Baiting, Cross-Linking, 7 Internal Link Types)<br>• Black Hat SEO Warnings (Stuffing, Cloaking, PBNs)<br>• A/B Testing Scientific Methodology<br>• PPC Auction Mechanics (Quality Score & Ad Rank)<br>• Email Marketing: 6 Core Traits, Campaign Formats & 6 Retention Metrics | **20%** |
-| **Module 5 ★** | **Web Analytics, Google Ecosystem & AI Trends**<br>• Web Analytics Definition & Why Measurement Drives Management<br>• **Google Analytics 4: The 4 Core Reporting Pillars** (Audience, Acquisition, Behavior, Conversions)<br>• **Google Search Console**: Queries, Average Position, Indexing, Backlinks<br>• Web Traffic Metrics: Sessions, Users, Bounce Rate, Average Duration<br>• Technical Diagnostics: XML Sitemaps, 404s, 500 Server Errors, robots.txt, 301 Loops<br>• Emerging AI Trends: **AEO** (Answer Engine Optimization) & **GEO** (Generative Engine Optimization)<br>• Voice Search, Q-Commerce Velocity, Social Commerce, Cookieless Privacy | **25%** *(Highest!)* |
+| **Module 1: Digital Marketing Fundamentals** | 8 Marketing Eras, Web 0.0 to 5.0, DM vs Online, Generational Cohorts (Baby Boomers &rarr; Gen Alpha), Red Bull Non-Linear Marketing, Digital Transformation Model (4 Arrows), ASCOR, 7Ds, 5-Stage Funnel &amp; KPIs, STP Framework, B2B vs B2C | **15% – 20%** |
+| **Module 1B: E-Commerce Business Models** | Marketplace vs Direct (B2B, B2C, Fulfilled by Seller), 5 Revenue Models (Advertising, Subscription, Transaction Fee, Sales, Affiliate), White Label vs Outsourcing, Physical vs Virtual Value Chain (Porter &amp; Rayport-Sviokla) | *Core Mod 1* |
+| **Module 1C: Online Consumer Behavior** | Consumer Behavior Matrix (Complex, Dissonance-Reducing, Variety-Seeking, Habitual), 5-Stage Buying Process, Post-Purchase Cognitive Dissonance, Problem Solving Levels | *Core Mod 1* |
+| **Module 2: Website Planning & Structure** | Client-Server Architecture, UX vs UI, Complexity vs Churn Rate, 1/3/5/7 Page Architectures, Canva Wireframing Practical Exercise, 3 Nav Models (Hierarchical, Sequential, Webbed), Static vs Dynamic, URL Anatomy, Core Page Architecture (Pricing, Portfolio, Contact) | **20%** |
+| **Module 3: Search Engine Marketing & Email** | SEO vs SEM vs PPC Hierarchy, Keyword Types (Fat Head, Chunky Middle, Long Tail) & CNIT Intent, 10 On-Page & 10 Off-Page SEO Techniques, Link Baiting, Black Hat SEO, A/B Testing, Reach vs Impressions, Dimensions vs Metrics, robots.txt, 301 vs 302, 8 Email Campaign Types & Metrics | **20%** |
+| **Module 4: Social Media Optimization (SMO)** | Introduction to SMM, eWoM (Earned vs Paid Media), McKinsey Social Media Model (Monitor, Amplify, Respond, Lead), 10 Forms of Social Media, Facebook Marketing & Widgets, Blogging & WordPress, Twitter Marketing, LinkedIn B2B Marketing, 10 Social Analytics Tools, 13-Step Campaign Design (Indian Tourism Case) | **20%** |
+| **Module 5: Web Analytics & Emerging Trends** | The "Crystal Ball" Concept, Data Abstraction, The Pyramid Model (Volume vs Value), Web Data Abstractions (Hits, Pageviews, Visits, Visitors), Key Metrics (Conversion, Abandonment, Voluntary/Involuntary Churn, Loyalty, Frequency, Recency), New vs Returning Visitors, Dimensions vs Metrics, Web Usage Mining (Association Rules, Sequential Patterns, Clustering, Classification, OLAP), Crawl Errors (Site vs URL), 15 Tools, StyleKart & LearnUp Case Studies | **25% ★** |
+| **Quick Reference** | 18 Master Formulas & Numerical Worked Solutions, Comprehensive Acronym Glossary, 15 Model Exam QA | *Reference* |
 
 ---
 
-## 📐 Essential Formula Cheatsheet
+## 📐 Master Formulas Quick Summary
 
-| Metric | Formula |
-|:---|:---|
-| **Click-Through Rate (CTR)** | `(Clicks ÷ Impressions) × 100` |
-| **Conversion Rate (CVR)** | `(Conversions ÷ Clicks) × 100` |
-| **Cost Per Click (CPC)** | `Total Ad Cost ÷ Total Clicks` |
-| **Cost Per Acquisition (CPA)** | `Total Ad Cost ÷ Total Conversions` |
-| **Cost Per Mille (CPM)** | `(Total Ad Cost ÷ Total Impressions) × 1,000` |
-| **Return on Ad Spend (ROAS)** | `Gross Revenue from Ads ÷ Total Ad Spend` |
-| **Return on Investment (ROI)** | `[ (Gross Revenue − Total Cost) ÷ Total Cost ] × 100` |
-| **Customer Acquisition Cost (CAC)** | `Total Marketing Expenses ÷ New Customers Acquired` |
-| **Keyword Density** | `(Keyword Occurrences ÷ Total Word Count) × 100` |
-| **Customer Churn Rate** | `(Customers Lost During Period ÷ Total Customers at Start) × 100` |
-| **Email Delivery Rate** | `(Emails Delivered ÷ Total Emails Sent) × 100` |
-| **Email Open Rate** | `(Unique Opens ÷ Emails Delivered) × 100` |
-
----
-
-## 🛠️ How to Enable GitHub Pages (To View on Your Phone)
-
-1. Open this repository on GitHub: **[https://github.com/rohnit20/DMNotes](https://github.com/rohnit20/DMNotes)**
-2. Click on the **Settings** tab (the gear icon at the top of the repo).
-3. In the left sidebar, under **Code and automation**, click on **Pages**.
-4. Under **Build and deployment** &rarr; **Branch**:
-   - Change `None` to **`main`** (or `master`).
-   - Leave the folder as **`/(root)`**.
-   - Click **Save**.
-5. Wait 30 to 60 seconds for GitHub Actions to build the site.
-6. Refresh the page. You will see a banner:  
-   *"Your site is live at https://rohnit20.github.io/DMNotes/"*
-7. Open that link on your smartphone browser (Safari / Chrome). Bookmark it or tap **"Add to Home Screen"** for instant access on the go!
+1. **Click-Through Rate (CTR):** `(Clicks ÷ Impressions) × 100`
+2. **Conversion Rate (CVR):** `(Conversions ÷ Clicks) × 100` (or `Completers ÷ Starters × 100`)
+3. **Cost Per Click (CPC):** `Ad Cost ÷ Clicks`
+4. **Cost Per Acquisition (CPA):** `Ad Cost ÷ Conversions`
+5. **Cost Per Mille (CPM):** `(Ad Cost ÷ Impressions) × 1,000`
+6. **Return on Ad Spend (ROAS):** `Gross Ad Revenue ÷ Total Ad Spend`
+7. **Return on Investment (ROI):** `((Revenue − Cost) ÷ Cost) × 100`
+8. **Customer Acquisition Cost (CAC):** `Total Marketing & Sales Spend ÷ New Customers Acquired`
+9. **Cart Abandonment Rate:** `(Abandoned Visits ÷ Total Cart Visits) × 100`
+10. **Customer Churn (Attrition) Rate:** `(Lost Customers ÷ Starting Customers) × 100`
+11. **Advertising Frequency:** `Total Impressions ÷ Unique Reach`
+12. **Pages per Visit:** `Total Page Views ÷ Total Visits`
+13. **Customer Lifetime Value (LTV):** `(Average Order Value × Purchase Frequency) × Customer Lifespan`
+14. **Healthy SaaS Ratio:** `LTV ≥ 3 × CAC`
+15. **Email Delivery Rate:** `(Delivered Emails ÷ Sent Emails) × 100`
+16. **Email Open Rate:** `(Unique Opens ÷ Delivered Emails) × 100`
+17. **Keyword Density:** `(Keyword Occurrences ÷ Total Word Count) × 100`
+18. **Profit Margin:** `Gross Revenue − Cost of Goods Sold (COGS)`
 
 ---
-*Created for Amity University MBA Sem 3 Examination Revision.*
+
+## 🚀 How to Access & Study
+- **Live Interactive Web App:** Visit **[https://rohnit20.github.io/DMNotes/](https://rohnit20.github.io/DMNotes/)** on any smartphone, tablet, or laptop.
+- Use the left sidebar to jump directly to any topic or formula.
+- Complete with self-contained visual diagrams, real exam numericals, and case study solutions.

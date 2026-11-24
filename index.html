@@ -16,6 +16,9 @@
   --m3: #d4580a;
   --m3-light: #fff7ed;
   --m3-border: #fed7aa;
+  --m4: #be185d;
+  --m4-light: #fdf2f8;
+  --m4-border: #fbcfe8;
   --m5: #6b21a8;
   --m5-light: #faf5ff;
   --m5-border: #e9d5ff;
@@ -125,6 +128,7 @@ body {
 .nav-link.active-m1 { border-left-color: var(--m1); color: var(--m1); font-weight: 700; background: var(--m1-light); }
 .nav-link.active-m2 { border-left-color: var(--m2); color: var(--m2); font-weight: 700; background: var(--m2-light); }
 .nav-link.active-m3 { border-left-color: var(--m3); color: var(--m3); font-weight: 700; background: var(--m3-light); }
+.nav-link.active-m4 { border-left-color: var(--m4); color: var(--m4); font-weight: 700; background: var(--m4-light); }
 .nav-link.active-m5 { border-left-color: var(--m5); color: var(--m5); font-weight: 700; background: var(--m5-light); }
 
 /* MAIN CONTENT AREA */
@@ -189,7 +193,7 @@ body {
 /* SYLLABUS BANNER STRIP */
 .syllabus-strip {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   background: #ffffff;
   border-bottom: 1px solid var(--gray-200);
 }
@@ -202,6 +206,7 @@ body {
 .strip-card.sc-m1 { border-color: var(--m1); }
 .strip-card.sc-m2 { border-color: var(--m2); }
 .strip-card.sc-m3 { border-color: var(--m3); }
+.strip-card.sc-m4 { border-color: var(--m4); }
 .strip-card.sc-m5 { border-color: var(--m5); }
 
 .strip-card .mod-title { font-weight: 800; font-size: 0.92rem; }
@@ -225,6 +230,7 @@ body {
 .section-header.h-m1 { border-color: var(--m1); color: var(--m1); }
 .section-header.h-m2 { border-color: var(--m2); color: var(--m2); }
 .section-header.h-m3 { border-color: var(--m3); color: var(--m3); }
+.section-header.h-m4 { border-color: var(--m4); color: var(--m4); }
 .section-header.h-m5 { border-color: var(--m5); color: var(--m5); }
 
 .header-icon {
@@ -241,6 +247,7 @@ body {
 .h-m1 .header-icon { background: var(--m1-light); color: var(--m1); }
 .h-m2 .header-icon { background: var(--m2-light); color: var(--m2); }
 .h-m3 .header-icon { background: var(--m3-light); color: var(--m3); }
+.h-m4 .header-icon { background: var(--m4-light); color: var(--m4); }
 .h-m5 .header-icon { background: var(--m5-light); color: var(--m5); }
 
 .section-header h2 {
@@ -421,6 +428,7 @@ table.data-table tr:nth-child(even) td { background-color: var(--gray-50); }
 table.dt-m1 th { background-color: var(--m1); }
 table.dt-m2 th { background-color: var(--m2); }
 table.dt-m3 th { background-color: var(--m3); }
+table.dt-m4 th { background-color: var(--m4); }
 table.dt-m5 th { background-color: var(--m5); }
 
 /* SLIDE IMAGES EMBED */
@@ -1129,6 +1137,18 @@ table.dt-m5 th { background-color: var(--m5); }
   <a href="#m3-sem" class="nav-link">3.6 SEM &amp; Paid Placement</a>
   <a href="#m3-email" class="nav-link">3.7 Email Marketing &amp; Metrics</a>
 
+  <div class="nav-group-title">Module 4: Social Media (20%)</div>
+  <a href="#m4-intro" class="nav-link active-m4">4.1 Introduction to SMM</a>
+  <a href="#m4-types" class="nav-link">4.2 Types of Social Media</a>
+  <a href="#m4-activities" class="nav-link">4.3 Key Activities on Social Media</a>
+  <a href="#m4-facebook" class="nav-link">4.4 Facebook Marketing</a>
+  <a href="#m4-blogging" class="nav-link">4.5 Blogging &amp; WordPress</a>
+  <a href="#m4-twitter" class="nav-link">4.6 Twitter Marketing</a>
+  <a href="#m4-linkedin" class="nav-link">4.7 LinkedIn Marketing</a>
+  <a href="#m4-email" class="nav-link">4.8 Email Marketing (M4)</a>
+  <a href="#m4-analytics" class="nav-link">4.9 Social Media Analytics</a>
+  <a href="#m4-campaigns" class="nav-link">4.10 Designing Campaigns ★</a>
+
   <div class="nav-group-title">Module 5: Analytics &amp; Trends (25%) ★</div>
   <a href="#m5-analytics" class="nav-link active-m5">5.1 Google Analytics (4 Pillars)</a>
   <a href="#m5-gsc" class="nav-link">5.2 Google Search Console</a>
@@ -1171,6 +1191,11 @@ table.dt-m5 th { background-color: var(--m5); }
   <div class="strip-card sc-m3">
     <div class="mod-title">Module 3</div>
     <div class="mod-desc">SEO, SEM &amp; Email Marketing</div>
+    <span class="mod-weight">Weightage: 20%</span>
+  </div>
+  <div class="strip-card sc-m4">
+    <div class="mod-title">Module 4</div>
+    <div class="mod-desc">Social Media Optimization</div>
     <span class="mod-weight">Weightage: 20%</span>
   </div>
   <div class="strip-card sc-m5">
@@ -1742,8 +1767,55 @@ table.dt-m5 th { background-color: var(--m5); }
       </div>
       <div style="height:20px; width:2px; background:var(--gray-300); margin:0 auto;"></div>
       <div style="background:#fff7ed; border:2px solid var(--m3); color:var(--m3); padding:10px 20px; border-radius:8px; font-weight:800; display:inline-block; font-size:0.85rem;">
-        🔗 3. INTERMEDIARIES &amp; PARTNERS<br><small style="font-weight:500;">Logistics, Payment Gateways, Marketplaces</small>
+        🔗 3. INTERMEDIARIES &amp; DELIVERY<br><small style="font-weight:500;">Logistics, Fulfillment, Delivery Functions</small>
       </div>
+    </div>
+
+    <!-- DETAILED 4-ARROW BREAKDOWN FROM CLASS NOTES -->
+    <div class="grid-4col" style="margin-top:20px;">
+      <div class="card-item" style="border-top:4px solid var(--m1);">
+        <h4 style="font-size:0.82rem;">⬆️ TOP: INTERNAL TEAMS (Product)</h4>
+        <p style="font-weight:700; color:var(--m1); font-size:0.75rem;">Production Function</p>
+        <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+          <li><strong>Product Development Automation:</strong> Rapid CAD, digital prototyping &amp; agile sprint cycles.</li>
+          <li><strong>Process Digitalization:</strong> End-to-end paperless workflows and automated ERP integration.</li>
+          <li><strong>Productivity Collaboration:</strong> Cross-functional enterprise tools (Slack, Jira, Teams).</li>
+        </ul>
+      </div>
+
+      <div class="card-item" style="border-top:4px solid var(--success);">
+        <h4 style="font-size:0.82rem;">➡️ RIGHT: CUSTOMERS</h4>
+        <p style="font-weight:700; color:var(--success); font-size:0.75rem;">Consumption Function</p>
+        <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+          <li><strong>Automating Consumption:</strong> 1-click ordering, recurring subscriptions &amp; smart reordering.</li>
+          <li><strong>Channel Digitalization:</strong> Omnichannel touchpoints (app, web, social, kiosks).</li>
+          <li><strong>Community Collaboration:</strong> User forums, co-creation communities &amp; social reviews.</li>
+        </ul>
+      </div>
+
+      <div class="card-item" style="border-top:4px solid var(--m3);">
+        <h4 style="font-size:0.82rem;">⬇️ BOTTOM: INTERMEDIARIES</h4>
+        <p style="font-weight:700; color:var(--m3); font-size:0.75rem;">Delivery Function</p>
+        <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+          <li><strong>Supply Chain Automation:</strong> RFID tracking, automated sorting &amp; predictive inventory.</li>
+          <li><strong>Fulfillment Digitalization:</strong> Real-time GPS tracking, electronic proof of delivery.</li>
+          <li><strong>Tech-Enabled Collaboration:</strong> EDI, partner APIs &amp; third-party logistics portals.</li>
+        </ul>
+      </div>
+
+      <div class="card-item" style="border-top:4px solid var(--m5);">
+        <h4 style="font-size:0.82rem;">⬅️ LEFT: SUPPLIERS</h4>
+        <p style="font-weight:700; color:var(--m5); font-size:0.75rem;">Procurement Function</p>
+        <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+          <li><strong>Product Procurement Automation:</strong> Automated RFQs, e-auctions &amp; purchase order approvals.</li>
+          <li><strong>Content Digitalization:</strong> Centralized digital asset management (DAM) &amp; spec catalogs.</li>
+          <li><strong>B2B Collab Portals:</strong> Vendor self-service dashboards &amp; JIT inventory sync.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="box box-def" style="margin-top:16px;">
+      <span class="def-term">Core Supporting Foundations:</span> The entire four-spoke transformation model is sustained by two universal enterprise enablers: <strong>Big Data &amp; Predictive Analytics</strong> (real-time business intelligence) and <strong>Cloud Infrastructure</strong> (scalable SaaS, PaaS, and IaaS hosting).
     </div>
   </div>
 
@@ -1906,6 +1978,89 @@ table.dt-m5 th { background-color: var(--m5); }
       </ol>
     </div>
   </div>
+  <!-- 1.19 STP FRAMEWORK & AUDIENCE IDENTIFICATION -->
+  <h3 class="topic-title" id="m1-stp">1.19 STP Framework in Digital Marketing &amp; Audience Identification</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Core Strategic Framework: STP</div>
+    In traditional marketing, STP (Segmentation, Targeting, Positioning) relied on broad demographic census data. In digital marketing, STP operates at hyper-granular, real-time behavioral fidelity.
+  </div>
+
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:4px solid var(--m1);">
+      <h4>1. ✂️ SEGMENTATION</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:8px;">Dividing a heterogeneous market into homogeneous clusters.</p>
+      <ul style="padding-left:16px; font-size:0.75rem; line-height:1.6;">
+        <li><strong>Demographic:</strong> Age, gender, income, education, occupation.</li>
+        <li><strong>Geographic:</strong> Country, city tier, climate, urban vs. rural.</li>
+        <li><strong>Psychographic:</strong> Lifestyle, values, personality, social attitudes.</li>
+        <li><strong>Behavioral (Digital Gold):</strong> Browsing history, cart additions, purchase frequency, device usage, brand loyalty, discount sensitivity.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m2);">
+      <h4>2. 🎯 TARGETING</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:8px;">Selecting the most profitable and strategically aligned segment(s).</p>
+      <ul style="padding-left:16px; font-size:0.75rem; line-height:1.6;">
+        <li><strong>TAM, SAM, SOM:</strong> Total Addressable Market &rarr; Serviceable Available Market &rarr; Serviceable Obtainable Market.</li>
+        <li><strong>Buyer Persona Creation:</strong> Fictional, research-backed archetype representing target customers (demographics, pain points, digital channels).</li>
+        <li><strong>Audience Identification for New Brands:</strong> Competitor audience overlap, social listening (Hootsuite/Brandwatch), Google Trends keyword search volumes.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m3);">
+      <h4>3. 📍 POSITIONING</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:8px;">Occupying a distinctive, desirable place in the consumer cognitive space.</p>
+      <ul style="padding-left:16px; font-size:0.75rem; line-height:1.6;">
+        <li><strong>Value Proposition:</strong> Why should someone buy from you rather than your competitor?</li>
+        <li><strong>Points of Difference (POD):</strong> Unique attributes competitors cannot match (e.g., Blinkit's 10-minute delivery).</li>
+        <li><strong>Points of Parity (POP):</strong> Mandatory baseline industry standards (e.g., secure payment, free returns).</li>
+        <li><strong>Perceptual Mapping:</strong> 2-axis visual representation of brand positioning vs. competitors (e.g., Price vs. Quality).</li>
+      </ul>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">B2B vs. B2C Digital Marketing — Comparative Matrix:</h4>
+  <table class="data-table dt-m1">
+    <thead>
+      <tr>
+        <th>Strategic Dimension</th>
+        <th>B2B (Business-to-Business)</th>
+        <th>B2C (Business-to-Consumer)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Primary Motivation</strong></td>
+        <td>Logic, ROI, efficiency, cost reduction, profit enhancement.</td>
+        <td>Emotion, status, convenience, entertainment, instant gratification.</td>
+      </tr>
+      <tr>
+        <td><strong>Decision Maker</strong></td>
+        <td>Buying Center / Multiple stakeholders (procurement, IT, CFO, CEO).</td>
+        <td>Individual consumer or immediate family unit.</td>
+      </tr>
+      <tr>
+        <td><strong>Sales Cycle Velocity</strong></td>
+        <td>Long (weeks, months, quarters); complex procurement and contracts.</td>
+        <td>Short to instantaneous (minutes to days; impulse purchases common).</td>
+      </tr>
+      <tr>
+        <td><strong>Relationship Dynamic</strong></td>
+        <td>High-touch, relationship-driven, long-term contracts (AMC, retainer).</td>
+        <td>Transactional, brand-loyalty driven, automated self-service checkout.</td>
+      </tr>
+      <tr>
+        <td><strong>Dominant Digital Channels</strong></td>
+        <td>LinkedIn, organic SEO, white papers, industry webinars, direct email.</td>
+        <td>Instagram, TikTok/Reels, YouTube, Google Ads, influencer endorsements.</td>
+      </tr>
+      <tr>
+        <td><strong>Key Performance Metrics</strong></td>
+        <td>MQL (Marketing Qualified Leads), SQL, Pipeline Value, CAC, LTV.</td>
+        <td>CTR, Conversion Rate, Add-to-Cart, AOV, ROAS, Cart Abandonment.</td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 
 <!-- ═══════════════════════════════════ -->
@@ -3021,6 +3176,100 @@ table.dt-m5 th { background-color: var(--m5); }
   <div class="box box-def">
     <span class="def-term">Website Audit Definition:</span> A comprehensive, rigorous analysis of all technical, on-page, and architectural factors that affect a website's visibility in search engines, page speed, mobile usability, and conversion performance. Conducted prior to redesigns or major marketing campaigns.
   </div>
+  <!-- 2.9 WEBSITE SCOPE & PAGE ARCHITECTURE -->
+  <h3 class="topic-title" id="m2-pages">2.9 Website Scope &amp; Page Architecture: 1, 3, 5, 7 Pages &amp; Canva Wireframing</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Class Focus: Website Architecture by Page Count</div>
+    A fundamental rule of website design: <strong>More pages &amp; higher navigational complexity = Higher customer churn rate!</strong> Every additional menu layer introduces cognitive friction and exit probability.
+  </div>
+
+  <div class="grid-4col">
+    <div class="card-item" style="border-top:4px solid var(--m2);">
+      <h4>📄 1-Page Website</h4>
+      <p style="font-weight:700; color:var(--m2); font-size:0.75rem;">Landing Page / Single Page App</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+        <li><strong>Structure:</strong> Continuous linear vertical scrolling; sticky navigation anchors.</li>
+        <li><strong>Primary Goal:</strong> Hyper-focused singular call-to-action (CTA).</li>
+        <li><strong>Best For:</strong> Event registrations, mobile app downloads, book launches, single-product campaigns.</li>
+        <li><strong>Churn Risk:</strong> Lowest drop-off; zero multi-page load latency.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m1);">
+      <h4>📑 3-Page Website</h4>
+      <p style="font-weight:700; color:var(--m1); font-size:0.75rem;">Lean Commercial Core</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+        <li><strong>Pages:</strong> 1. Home | 2. About / Services | 3. Contact.</li>
+        <li><strong>Primary Goal:</strong> Baseline digital presence with direct lead capture.</li>
+        <li><strong>Best For:</strong> Local service professionals (doctors, lawyers, consultants), early-stage MVPs.</li>
+        <li><strong>Churn Risk:</strong> Very low; users find answers within 1 click.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--warning);">
+      <h4>📚 5-Page Website</h4>
+      <p style="font-weight:700; color:var(--warning); font-size:0.75rem;">The SME Industry Standard</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+        <li><strong>Pages:</strong> 1. Home | 2. About Us | 3. Services / Products | 4. Blog / Portfolio | 5. Contact Us.</li>
+        <li><strong>Primary Goal:</strong> Balanced blend of brand story, product showcase, SEO authority, and lead capture.</li>
+        <li><strong>Best For:</strong> Mid-sized businesses, agencies, growing D2C brands.</li>
+        <li><strong>Churn Risk:</strong> Moderate; requires clear breadcrumb navigation.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m5);">
+      <h4>🏛️ 7-Page Website</h4>
+      <p style="font-weight:700; color:var(--m5); font-size:0.75rem;">Comprehensive Enterprise / SaaS</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+        <li><strong>Pages:</strong> 1. Home | 2. About | 3. Products/Services | 4. Pricing / Plans | 5. Portfolio / Case Studies | 6. Blog / Resources | 7. Contact / Support.</li>
+        <li><strong>Primary Goal:</strong> Complex multi-persona engagement and thorough objection handling.</li>
+        <li><strong>Best For:</strong> B2B enterprise software, established e-commerce brands.</li>
+        <li><strong>Churn Risk:</strong> High if IA (Information Architecture) is poorly designed!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box box-def" style="margin-top:16px;">
+    <span class="def-term">Canva Website Prototyping (Classroom Practical Exercise):</span>
+    Why design websites in Canva rather than relying on automated AI website generators?
+    <ol style="padding-left:20px; font-size:0.78rem; line-height:1.6; margin-top:6px;">
+      <li><strong>Intentional Wireframing:</strong> Forces the marketer to manually deliberate over visual hierarchy, typography ratios, and CTA button placement rather than accepting generic AI templates.</li>
+      <li><strong>Cognitive Friction Reduction:</strong> Students physically map user journeys, calculating how many clicks are required to reach the conversion goal.</li>
+      <li><strong>Visual Identity Control:</strong> Enforces consistent 60-30-10 color palettes, font pairings, and responsive grid alignment across desktop and mobile screens.</li>
+    </ol>
+  </div>
+
+  <h4 class="subtopic-title">Anatomy of High-Converting Specialized Pages:</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:3px solid var(--m3);">
+      <h4>💲 Pricing Page Architecture</h4>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>Tiered Strategy:</strong> 3 tiers (Basic / Pro / Enterprise) using the <em>Decoy Effect</em> to anchor the middle tier as "Most Popular".</li>
+        <li><strong>Feature Comparison Matrix:</strong> Clear checkmarks highlighting differentiators.</li>
+        <li><strong>Friction Reducers:</strong> "No credit card required", "Cancel anytime", 30-day money-back guarantee badges.</li>
+        <li><strong>Objection Handling:</strong> Embedded Pricing FAQ section below the comparison table.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:3px solid var(--m2);">
+      <h4>💼 Portfolio &amp; Case Studies</h4>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>P-S-R Narrative:</strong> Problem &rarr; Solution &rarr; Quantified Results (e.g., "+240% organic traffic in 90 days").</li>
+        <li><strong>Visual Proof:</strong> High-resolution screenshots, mockups, or video walkthroughs.</li>
+        <li><strong>Client Testimonial:</strong> Name, photograph, designation, and company logo for authentic social proof.</li>
+        <li><strong>Next-Step CTA:</strong> "Want similar results for your brand? Book a consultation."</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:3px solid var(--success);">
+      <h4>📞 Contact Us Page Design</h4>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>Low-Friction Form:</strong> Maximum 3-4 fields (Name, Email, Message). Every added field decreases form completion by 10%.</li>
+        <li><strong>Multi-Channel Redundancy:</strong> Provide Email, Phone, WhatsApp Click-to-Chat, and Physical Google Maps embed.</li>
+        <li><strong>Expected Response Time:</strong> Clear commitment ("We reply within 2 hours during business hours").</li>
+      </ul>
+    </div>
+  </div>
 </section>
 
 <!-- ═══════════════════════════════════ -->
@@ -3571,6 +3820,820 @@ table.dt-m5 th { background-color: var(--m5); }
       <div class="fc-desc">Percentage of recipients who opted out. A spike (&gt;0.5%) indicates audience fatigue, irrelevant content, or excessive sending.</div>
     </div>
   </div>
+  <!-- 3.10 ADVANCED SEARCH ARCHITECTURE & TECHNICAL SEO -->
+  <h3 class="topic-title" id="m3-tech">3.10 Advanced Technical Directives, Keyword Taxonomy &amp; Measurement</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ High-Yield Exam Topics: Directives, Redirects &amp; Metrics</div>
+    Search engines evaluate websites not just on visible content, but on server responses, crawling instructions, and link equity distribution.
+  </div>
+
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:4px solid var(--m3);">
+      <h4>👁️ Reach vs. Impressions</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:6px;">A fundamental distinction in digital advertising measurement:</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>Reach (Unique People):</strong> The total number of <em>distinct unique individuals</em> who saw your ad or content at least once.</li>
+        <li><strong>Impressions (Total Views):</strong> The total number of times the ad was displayed on screen, regardless of whether clicked or seen by the same user multiple times.</li>
+        <li><strong>Formula:</strong> <code>Frequency = Impressions / Reach</code>. If Reach = 10,000 and Impressions = 30,000, then Average Frequency = 3.</li>
+        <li><em>Impressions are always &ge; Reach!</em></li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m1);">
+      <h4>📏 Dimensions vs. Metrics</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:6px;">The two fundamental building blocks of all search &amp; web reports:</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>Dimension ("WHAT"):</strong> Qualitative attribute or categorical descriptor. Describes the characteristics of data. Examples: Keyword, Device type, Country, Campaign name, Landing page URL.</li>
+        <li><strong>Metric ("HOW MUCH"):</strong> Quantitative measurement or numeric value. Measurable sums, averages, or ratios. Examples: Clicks, Impressions, Cost, CTR (%), Bounce Rate, Revenue ($).</li>
+        <li><em>Memory Trick:</em> Dimensions form the <strong>Rows</strong>; Metrics form the <strong>Columns</strong>!</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--warning);">
+      <h4>🤖 robots.txt Protocol</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:6px;">The "Friendly Robot" crawl instruction file:</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>Location:</strong> Must reside at the exact root of domain: <code>example.com/robots.txt</code>.</li>
+        <li><strong>Purpose:</strong> Instructs search engine web crawlers which pages or folders they are allowed or forbidden from crawling.</li>
+        <li><strong>Standard Syntax:</strong><br>
+          <code>User-agent: *</code><br>
+          <code>Disallow: /checkout/</code><br>
+          <code>Disallow: /admin/</code><br>
+          <code>Sitemap: https://example.com/sitemap.xml</code>
+        </li>
+        <li><strong>Critical Crawl Rule:</strong> If Googlebot cannot reach or read the robots.txt file due to server failure, Google <em>postpones the crawl entirely</em> until the file is accessible!</li>
+      </ul>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">301 vs. 302 Redirects — Architectural Comparison:</h4>
+  <table class="data-table dt-m3">
+    <thead>
+      <tr>
+        <th>Feature / Parameter</th>
+        <th>301 Moved Permanently</th>
+        <th>302 Found / Moved Temporarily</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Definition</strong></td>
+        <td>Permanent redirection of a URL to a new destination.</td>
+        <td>Temporary redirection; original URL will return.</td>
+      </tr>
+      <tr>
+        <td><strong>Link Equity (PageRank)</strong></td>
+        <td><strong>Passes 90–99% of link equity</strong> to the new URL.</td>
+        <td><strong>Passes 0% link equity</strong>; retains equity on original URL.</td>
+      </tr>
+      <tr>
+        <td><strong>Search Engine Indexing</strong></td>
+        <td>Search engines de-index the old URL and index the new URL.</td>
+        <td>Search engines keep the old URL indexed in search results.</td>
+      </tr>
+      <tr>
+        <td><strong>Browser Caching</strong></td>
+        <td>Cached aggressively by browsers; fast subsequent loads.</td>
+        <td>Not cached; browser checks server on every request.</td>
+      </tr>
+      <tr>
+        <td><strong>Primary Use Cases</strong></td>
+        <td>Domain migration (HTTP &rarr; HTTPS), site rebranding, consolidating outdated duplicate pages.</td>
+        <td>A/B split testing, temporary site maintenance, seasonal holiday promotions, temporary out-of-stock items.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4 class="subtopic-title">Backlink Acquisition: B2B vs. B2C Strategic Playbooks:</h4>
+  <div class="grid-2col">
+    <div class="card-item" style="border-top:3px solid var(--m1);">
+      <h4>🏢 B2B Backlink Strategies</h4>
+      <ul style="padding-left:16px; font-size:0.75rem; line-height:1.6;">
+        <li><strong>Original Research &amp; Industry Reports:</strong> Publishing authoritative benchmarks that trade journals cite.</li>
+        <li><strong>Digital PR &amp; Executive By-lines:</strong> Guest articles on Forbes, TechCrunch, HBR, or industry association portals.</li>
+        <li><strong>Vendor / Partner Ecosystem Links:</strong> Getting listed on official software integration directories (e.g., Salesforce AppExchange).</li>
+      </ul>
+    </div>
+    <div class="card-item" style="border-top:3px solid var(--m3);">
+      <h4>🛍️ B2C Backlink Strategies</h4>
+      <ul style="padding-left:16px; font-size:0.75rem; line-height:1.6;">
+        <li><strong>Product Gifting &amp; Unboxing Reviews:</strong> Sending items to niche lifestyle bloggers for authentic reviews.</li>
+        <li><strong>Viral Infographics &amp; Interactive Calculators:</strong> Engaging visual content that high-traffic blogs embed.</li>
+        <li><strong>Coupon &amp; Deal Aggregators:</strong> Strategic distribution on CashKaro, GrabOn, RetailMeNot for high-volume referral links.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════ -->
+<!-- 📱 MODULE 4 — SOCIAL MEDIA OPTIMIZATION -->
+<!-- ═══════════════════════════════════ -->
+<section class="section-container" id="m4-intro">
+  <div class="section-header h-m4">
+    <div class="header-icon">📱</div>
+    <div>
+      <h2>Module 4 — Social Media Optimization &amp; Marketing</h2>
+      <p class="subtitle">SMM Strategy, Facebook, Blogging, Twitter, LinkedIn, Email, Analytics &amp; Campaign Design | Syllabus Weightage: 20%</p>
+    </div>
+  </div>
+
+  <div class="story-box">
+    <strong>The Social Story:</strong> Before the internet, word-of-mouth spread slowly through physical neighborhoods. Today, a single tweet or Instagram post can reach millions in seconds. Social Media Marketing (SMM) has fundamentally democratized brand communication — a small startup with zero advertising budget can out-engage a Fortune 500 corporation if its content resonates authentically. In Module 4, we master the platforms, tools, and strategic frameworks that govern the social web: from Facebook ads to blogging monetization, from LinkedIn lead gen to designing viral campaigns that drive real commercial outcomes.
+  </div>
+
+  <!-- 4.1 INTRODUCTION TO SMM -->
+  <h3 class="topic-title" id="m4-intro">4.1 Introduction to Social Media Marketing (SMM)</h3>
+
+  <div class="box box-def">
+    <span class="def-term" style="color:var(--m4);">Definition — Social Media Marketing (SMM):</span><br>
+    "Social Media Marketing uses Social Media portals to <strong>positively influence consumers</strong> toward a website, company, brand, product, service, or a person. Typically, the end goal of SMM is a <strong>'conversion'</strong> — such as the purchase of a product, subscription to a newsletter, registration in an online community, or some other desirable consumer action."
+  </div>
+
+  <div class="box box-def" style="border-left-color:var(--m4);">
+    <span class="def-term" style="color:var(--m4);">Social Media — Umbrella Definition:</span><br>
+    "Social Media is the <strong>umbrella term</strong> for web-based software &amp; services that allow users to come together online &amp; exchange, discuss, communicate &amp; participate in any form of social interaction."
+  </div>
+
+  <h4 class="subtopic-title">eWoM — Electronic Word of Mouth</h4>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Exam Definition: eWoM (Electronic Word of Mouth)</div>
+    SMM programs center on creating content that attracts attention and encourages readers to <strong>share it with their social networks</strong>. The resulting <span class="dt-m4" style="background:rgba(190,24,93,0.08); border-left:3px solid var(--m4); padding:2px 8px; border-radius:4px;"><strong>eWoM</strong></span> refers to any statement consumers share via the Internet (websites, social networks, instant messages, news feeds) about an event, product, service, brand or company.<br><br>
+    When the message spreads from user to user and appears to come from a <strong>trusted, third-party source</strong> rather than the brand itself, this results in <strong>"Earned Media"</strong> rather than "Paid Media."
+  </div>
+
+  <div class="grid-2col">
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4 style="color:var(--m4);">🎯 Why Social Media? (8 Reasons)</h4>
+      <ul style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li>Deeper <strong>engagement</strong> with customers</li>
+        <li>Get <strong>insights</strong> not available any other way</li>
+        <li>Customers are <strong>already online</strong></li>
+        <li>Creates <strong>happier customers</strong></li>
+        <li>Direct channel for <strong>feedback</strong></li>
+        <li>Helps <strong>create better products</strong></li>
+        <li>Evangelize &amp; <strong>convert believers</strong></li>
+        <li>Acquire <strong>more customers</strong></li>
+      </ul>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4 style="color:#9d174d;">🏆 Benefits of Social Media (7 Strategic)</h4>
+      <ul style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li><strong>Stay informed</strong> — real-time market intelligence</li>
+        <li><strong>Raise profile</strong> — build brand visibility</li>
+        <li><strong>Level the playing field</strong> — SMEs compete with giants</li>
+        <li><strong>Influence the influencers</strong> — connect with KOLs</li>
+        <li><strong>Nurture brand advocacy</strong> — turn fans to ambassadors</li>
+        <li><strong>Pass it on</strong> — viral amplification effect</li>
+        <li><strong>Wisdom of crowd</strong> — collective intelligence</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="box box-exam">
+    <div class="box-label">⭐ McKinsey Social Media Model — 4 Stages</div>
+    <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:10px;">
+      <div style="background:var(--m4); color:#fff; padding:12px 20px; border-radius:8px; font-weight:800; text-align:center; min-width:110px;">
+        1. MONITOR<br><small style="font-weight:400; opacity:0.9;">Listen &amp; track</small>
+      </div>
+      <div style="color:var(--m4); font-size:1.4rem; display:flex; align-items:center;">→</div>
+      <div style="background:#9d174d; color:#fff; padding:12px 20px; border-radius:8px; font-weight:800; text-align:center; min-width:110px;">
+        2. AMPLIFY<br><small style="font-weight:400; opacity:0.9;">Boost reach</small>
+      </div>
+      <div style="color:var(--m4); font-size:1.4rem; display:flex; align-items:center;">→</div>
+      <div style="background:#be185d; color:#fff; padding:12px 20px; border-radius:8px; font-weight:800; text-align:center; min-width:110px;">
+        3. RESPOND<br><small style="font-weight:400; opacity:0.9;">Engage &amp; reply</small>
+      </div>
+      <div style="color:var(--m4); font-size:1.4rem; display:flex; align-items:center;">→</div>
+      <div style="background:#831843; color:#fff; padding:12px 20px; border-radius:8px; font-weight:800; text-align:center; min-width:110px;">
+        4. LEAD<br><small style="font-weight:400; opacity:0.9;">Drive strategy</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.2 TYPES OF SOCIAL MEDIA -->
+  <h3 class="topic-title" id="m4-types">4.2 Different Forms &amp; Types of Social Media</h3>
+  <p>Social media is not one platform — it is a diverse ecosystem of 10 distinct forms, each serving different human communication needs:</p>
+
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4>🔖 Social Bookmarking</h4>
+      <p>Save, tag &amp; share favorite web resources with online friends. Users curate their internet using tags.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Slashdot.org, Reddit.com, Digg.com</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4>⬆️ Social Submission Sites</h4>
+      <p>Submit links to content you like for the online community to rate &amp; rank. More votes = more popularity.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Flickr.com, Friendster.com, LinkedIn.com</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4>💬 Forum &amp; Discussion Sites</h4>
+      <p>Anyone can register &amp; start discussion on general, vertical, or niche topics.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Groups.yahoo.com, Groups.google.com</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4>🎬 Media Sharing Sites</h4>
+      <p>Upload, share, comment on &amp; discuss rich media content with a global community.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">YouTube.com, Slideshare.com, Picasaweb.google.com</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4>⭐ Review &amp; Rating Sites</h4>
+      <p>Review &amp; rate companies, products, books, hotels, restaurants. Stand-alone or industry-specific.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">TripAdvisor.com, PCWorld.in</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4>👥 Social Network Sites</h4>
+      <p>Social utilities that connect you to people around you. Build personal and professional networks.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Facebook.com, MySpace.in</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #831843;">
+      <h4>✍️ Blogs</h4>
+      <p>Self-expression &amp; communication. Set up with free hosted services. Reverse-chronological posts.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Blogger.com, WordPress.com</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #831843;">
+      <h4>🎙️ Podcasts</h4>
+      <p>Rich media extension of blogging. Series of digital media files distributed over the internet.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Podcast.com, Apple.com/iTunes</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #831843;">
+      <h4>🐦 Micro-Blogging</h4>
+      <p>Short message broadcasting service. Post small pieces of text, links, images, or video.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Twitter.com, Jaiku.com, Identi.ca</p>
+    </div>
+  </div>
+
+  <div class="card-item" style="border-top:4px solid var(--m4); margin-top:14px;">
+    <h4>📖 Wikis</h4>
+    <p>Online collection of pages available to anyone — create, edit, discuss, comment on &amp; contribute to. The ultimate collaborative knowledge base.</p>
+    <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Wikipedia.org, Britannica.com, Alexa.com</p>
+  </div>
+
+  <!-- 4.3 KEY ACTIVITIES ON SOCIAL MEDIA -->
+  <h3 class="topic-title" id="m4-activities">4.3 On Social Media — Key Activities</h3>
+  <div class="grid-3col">
+    <div class="card-item">
+      <h4>👤 Create Profile Pages</h4>
+      <p>Establish brand identity with complete, optimized business or personal profiles on each platform.</p>
+    </div>
+    <div class="card-item">
+      <h4>📢 Status Updates</h4>
+      <p>Regular posting of text, images, links, and videos to stay visible in follower feeds.</p>
+    </div>
+    <div class="card-item">
+      <h4>🤝 Friends / Fans / Pages</h4>
+      <p>Building community by becoming part of relevant networks, fan pages, and interest groups.</p>
+    </div>
+    <div class="card-item">
+      <h4>👁️ Monitoring Social Media</h4>
+      <p>Use tools to track brand mentions, sentiment, and conversation trends across platforms.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); margin-top:6px; font-style:italic;">Board Reader, Hootsuite, Social Mention</p>
+    </div>
+    <div class="card-item">
+      <h4>💬 Responding to Comments</h4>
+      <p>Engage with positive and negative user comments promptly to demonstrate brand responsiveness.</p>
+    </div>
+    <div class="card-item">
+      <h4>📊 Analytics &amp; Insights</h4>
+      <p>Regularly review platform-native analytics to measure reach, engagement, and conversion.</p>
+    </div>
+  </div>
+
+  <!-- 4.4 FACEBOOK MARKETING -->
+  <h3 class="topic-title" id="m4-facebook">4.4 Facebook Marketing (Advanced)</h3>
+
+  <div class="grid-2col">
+    <div>
+      <h4 class="subtopic-title">Facebook Applications (9 Built-In Features)</h4>
+      <div class="grid-3col" style="margin-top:8px;">
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Events</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Marketplace</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Notes</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Deals</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Developers</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Insights</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Questions</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Photos</strong></div>
+        <div class="card-item" style="border-top:3px solid var(--m4); padding:12px; text-align:center;"><strong>Videos</strong></div>
+      </div>
+    </div>
+    <div>
+      <h4 class="subtopic-title">Customizing Your Business Page (Step-by-Step)</h4>
+      <ol style="padding-left:18px; font-size:0.82rem; line-height:1.8;">
+        <li>Upload the company <strong>logo</strong></li>
+        <li>Upload <strong>pictures &amp; videos</strong></li>
+        <li>Enable <strong>discussions</strong></li>
+        <li>Create <strong>events</strong></li>
+        <li>Incorporate the <strong>corporate blog</strong></li>
+        <li>Add <strong>applications</strong></li>
+        <li>Create a <strong>custom URL</strong> for fan page (after 100 fans)</li>
+        <li><strong>Promote</strong> the page</li>
+        <li>Post regular <strong>status updates</strong></li>
+      </ol>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">Facebook Social Plugins (Widgets)</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <h4>Recommendations</h4>
+      <p style="font-size:0.8rem;">Shows personalized content recommendations based on what friends have liked or shared.</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <h4>Comments</h4>
+      <p style="font-size:0.8rem;">Embeds Facebook's native comment box directly on any external website page.</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <h4>Activity Feed</h4>
+      <p style="font-size:0.8rem;">Displays real-time feed of what friends are doing on your site (likes, shares, comments).</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <h4>Live Stream</h4>
+      <p style="font-size:0.8rem;">Enables real-time streaming of events, product launches, or Q&amp;A sessions.</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <h4>Friendpile</h4>
+      <p style="font-size:0.8rem;">Shows profile photos of friends who have liked a page, adding social proof.</p>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">PPC on Facebook — Step-by-Step Ad Setup</h4>
+  <div class="box box-eg">
+    <div class="eg-label">📋 Facebook PPC Workflow</div>
+    <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; align-items:center;">
+      <div style="background:var(--m4); color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">1. Go to Fan Page</div>
+      <span style="color:var(--m4); font-weight:800;">→</span>
+      <div style="background:#9d174d; color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">2. Get More Connections</div>
+      <span style="color:var(--m4); font-weight:800;">→</span>
+      <div style="background:#831843; color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">3. Advertise on Facebook</div>
+      <span style="color:var(--m4); font-weight:800;">→</span>
+      <div style="background:var(--gray-700); color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">4. Enter Destination URL</div>
+    </div>
+    <div style="display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; align-items:center;">
+      <div style="background:var(--gray-700); color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">5. Targeting (Location, Age)</div>
+      <span style="color:var(--m4); font-weight:800;">→</span>
+      <div style="background:var(--m4); color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">6. Set Budget &amp; Dates</div>
+      <span style="color:var(--m4); font-weight:800;">→</span>
+      <div style="background:#9d174d; color:#fff; padding:8px 14px; border-radius:6px; font-size:0.8rem; font-weight:700;">7. Choose CPM or CPC</div>
+    </div>
+    <p style="font-size:0.8rem; margin-top:10px; color:var(--gray-700);">Ads appear in the <strong>sidebar of a user's page</strong> and sponsored section — the ad title is clickable.</p>
+  </div>
+
+  <!-- 4.5 BLOGGING & WORDPRESS -->
+  <h3 class="topic-title" id="m4-blogging">4.5 Blogging &amp; WordPress</h3>
+
+  <div class="box box-def" style="border-left-color:var(--m4);">
+    <span class="def-term" style="color:var(--m4);">Definition — Blog:</span><br>
+    "A blog (truncation of <em>weblog</em>) is a discussion or informational site published on the World Wide Web consisting of discrete entries (<strong>'posts'</strong>) typically displayed in <strong>reverse chronological order</strong> (most recent post appears first)."
+  </div>
+
+  <p>A majority of blogs are <strong>interactive</strong>, allowing visitors to leave comments and message each other via widgets. This interactivity distinguishes blogs from static websites and makes blogging a form of <strong>social networking service</strong>. Multi-Author Blogs (MABs) from newspapers, universities, and think tanks now account for increasing blog traffic.</p>
+
+  <h4 class="subtopic-title">6 Types of Blogs</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4>📔 Personal Blogs</h4>
+      <p>Ongoing diary or commentary written by an individual. The original form of blogging.</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4>👥 Collaborative / Group Blogs</h4>
+      <p>Posts written by multiple authors, typically around a single unifying theme (politics, technology).</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid var(--m4);">
+      <h4>🐦 Microblogging</h4>
+      <p>Posting small pieces of digital content — text, pictures, links, videos. Portable &amp; spontaneous.</p>
+      <p style="font-size:0.76rem; color:var(--gray-600); font-style:italic;">Twitter, Facebook, Tumblr, Weibo</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4>🏢 Corporate / Organizational</h4>
+      <p>Internal (culture/communication) or external (marketing/branding/PR) blogs for businesses.</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4>📡 Aggregated Blogs</h4>
+      <p>Aggregate selected feeds on specific topics for readers. Known as "Planet" blogs. Saves search time.</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d;">
+      <h4>🎭 Genre Blogs</h4>
+      <p>Focus on a specific subject: political, travel, fashion, health, food, technology, legal (blawgs), etc.</p>
+    </div>
+  </div>
+
+  <div class="grid-2col" style="margin-top:16px;">
+    <div class="card-item">
+      <h4 style="color:var(--success);">✅ 4 Benefits of Blogging</h4>
+      <ol style="padding-left:18px; font-size:0.82rem; line-height:1.8;">
+        <li>Drives <strong>traffic</strong> to the website</li>
+        <li>Converts traffic into <strong>leads</strong></li>
+        <li>Establishes <strong>authority</strong> and expertise</li>
+        <li>Drives <strong>long-term compounding results</strong></li>
+      </ol>
+    </div>
+    <div class="card-item">
+      <h4 style="color:var(--warning);">💰 Monetizing Blogs — Google AdSense</h4>
+      <p style="font-size:0.82rem; line-height:1.6;">Blogs with high traffic place <strong>contextual ads</strong> that relate to blog content.<br><br>
+      <strong>Google AdSense + AdWords Correlation:</strong> AdSense allows bloggers to sell advertising space. The blogger makes a <strong>commission when users click</strong> on the ad link or advertisement. Advertisers use AdWords to place those ads on relevant blogs.</p>
+    </div>
+  </div>
+
+  <!-- 4.6 TWITTER MARKETING -->
+  <h3 class="topic-title" id="m4-twitter">4.6 Twitter Marketing</h3>
+
+  <div class="box box-def" style="border-left-color:var(--m4);">
+    <span class="def-term" style="color:var(--m4);">Twitter:</span> A virtual <strong>microblogging service</strong> that enables users to send and read short messages called "Tweets." Over <strong>400 million active users</strong> globally. Known for its fast pace and continuous updating.
+  </div>
+
+  <div class="grid-2col">
+    <div class="card-item">
+      <h4>📱 Twitter Use Cases</h4>
+      <ul style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li>Dissemination of ideas</li>
+        <li>Communication with others</li>
+        <li>Establishing viewpoints</li>
+        <li>Sharing news articles and theoretical concepts</li>
+        <li>Networking &amp; relationship building</li>
+        <li>Online branding opportunities</li>
+      </ul>
+    </div>
+    <div class="card-item">
+      <h4 style="color:var(--m4);">🐦 10 Twitter Marketing Tips</h4>
+      <ol style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li>Choose the right Twitter <strong>handle, photo &amp; header</strong></li>
+        <li>Create the right Twitter <strong>bio</strong></li>
+        <li>Tweet during <strong>peak hours</strong></li>
+        <li>Use <strong>hashtags</strong> strategically</li>
+        <li>Run <strong>advanced searches</strong></li>
+        <li>Use images and <strong>Twitter video</strong></li>
+        <li>Conduct <strong>Twitter polls</strong></li>
+        <li>Use creative <strong>calls to action</strong></li>
+        <li>Reach out to <strong>influencers</strong></li>
+        <li>Use <strong>Twitter Ads</strong> for paid reach</li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- 4.7 LINKEDIN MARKETING -->
+  <h3 class="topic-title" id="m4-linkedin">4.7 LinkedIn Marketing</h3>
+
+  <div class="box box-def" style="border-left-color:var(--m4);">
+    <span class="def-term" style="color:var(--m4);">LinkedIn:</span> The world's largest <strong>professional social network</strong>. Used for B2B marketing, lead generation, talent acquisition, and thought leadership.
+  </div>
+
+  <div class="grid-2col">
+    <div class="card-item">
+      <h4>🎯 4 Core LinkedIn Business Uses</h4>
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-top:10px;">
+        <div style="background:rgba(190,24,93,0.08); border:1px solid rgba(190,24,93,0.2); border-radius:8px; padding:12px; text-align:center;"><strong>Lead Generation</strong></div>
+        <div style="background:rgba(190,24,93,0.08); border:1px solid rgba(190,24,93,0.2); border-radius:8px; padding:12px; text-align:center;"><strong>Sales</strong></div>
+        <div style="background:rgba(190,24,93,0.08); border:1px solid rgba(190,24,93,0.2); border-radius:8px; padding:12px; text-align:center;"><strong>Networking</strong></div>
+        <div style="background:rgba(190,24,93,0.08); border:1px solid rgba(190,24,93,0.2); border-radius:8px; padding:12px; text-align:center;"><strong>Engagement</strong></div>
+      </div>
+    </div>
+    <div class="card-item">
+      <h4 style="color:var(--m4);">8 LinkedIn Marketing Tips</h4>
+      <ol style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li>Create a complete <strong>company profile</strong></li>
+        <li>Post <strong>actionable content</strong> regularly</li>
+        <li>Use the <strong>Matched Audience</strong> feature</li>
+        <li><strong>Search for individuals</strong> by role/industry</li>
+        <li><strong>Leverage groups</strong> for community building</li>
+        <li><strong>Start your own groups</strong> as a thought leader</li>
+        <li>Use <strong>InMail</strong> for direct outreach</li>
+        <li>Use <strong>paid LinkedIn Sales Solutions</strong></li>
+      </ol>
+    </div>
+  </div>
+
+  <!-- 4.8 GOOGLE+ -->
+  <h3 class="topic-title" id="m4-googleplus">4.8 Google+ Marketing (Historical Context)</h3>
+  <div class="box box-warn">
+    <strong>⚠️ Exam Trivia — Google+:</strong> Google+ was Google's own social networking platform, launched in <strong>2011</strong> and <strong>discontinued in 2019</strong>. It was Google's fourth social networking service, designed to compete with Facebook. It enabled brands to build relationships with prospects, customers, and other businesses. <em>Now discontinued — but may appear in exam for historical context!</em>
+  </div>
+
+  <!-- 4.9 EMAIL MARKETING -->
+  <h3 class="topic-title" id="m4-email">4.9 Email Marketing (Module 4 Perspective)</h3>
+
+  <div class="story-box">
+    <strong>Why Email is Listed in Both M3 and M4:</strong> Email marketing sits at the intersection of Social/Digital strategy (M4 coverage) and Search Engine Marketing channels (M3 coverage). Both modules cover it because email is both a <strong>retention marketing tool</strong> and a <strong>digital campaign channel</strong>.
+  </div>
+
+  <h4 class="subtopic-title">Understanding Email Marketing — 10 Characteristics</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:3px solid var(--m4); text-align:center; padding:14px;"><strong>Big Business</strong><p style="font-size:0.78rem; margin-top:4px;">Multi-billion $ global industry</p></div>
+    <div class="card-item" style="border-top:3px solid var(--m4); text-align:center; padding:14px;"><strong>Effective</strong><p style="font-size:0.78rem; margin-top:4px;">Highest ROI per channel</p></div>
+    <div class="card-item" style="border-top:3px solid var(--m4); text-align:center; padding:14px;"><strong>Direct Marketing</strong><p style="font-size:0.78rem; margin-top:4px;">Straight to inbox</p></div>
+    <div class="card-item" style="border-top:3px solid #9d174d; text-align:center; padding:14px;"><strong>Consumer Retention</strong><p style="font-size:0.78rem; margin-top:4px;">Re-engages past buyers</p></div>
+    <div class="card-item" style="border-top:3px solid #9d174d; text-align:center; padding:14px;"><strong>One-to-One</strong><p style="font-size:0.78rem; margin-top:4px;">Personalized via tags</p></div>
+    <div class="card-item" style="border-top:3px solid #9d174d; text-align:center; padding:14px;"><strong>Database Marketing</strong><p style="font-size:0.78rem; margin-top:4px;">Segmented by behavior</p></div>
+    <div class="card-item" style="border-top:3px solid #831843; text-align:center; padding:14px;"><strong>Permission</strong><p style="font-size:0.78rem; margin-top:4px;">Opt-in = high trust</p></div>
+    <div class="card-item" style="border-top:3px solid #831843; text-align:center; padding:14px;"><strong>Frequent</strong><p style="font-size:0.78rem; margin-top:4px;">Regular touchpoints</p></div>
+    <div class="card-item" style="border-top:3px solid #831843; text-align:center; padding:14px;"><strong>Inexpensive</strong><p style="font-size:0.78rem; margin-top:4px;">Near-zero marginal cost</p></div>
+  </div>
+  <div class="card-item" style="border-top:3px solid var(--m4); text-align:center; padding:14px; margin-top:14px;"><strong>Trackable</strong><p style="font-size:0.78rem; margin-top:4px;">Open rate, CTR, CVR all measurable</p></div>
+
+  <h4 class="subtopic-title">Building &amp; Managing Email Lists</h4>
+  <div class="grid-2col">
+    <div class="card-item">
+      <h4>📋 Sources for Building Lists</h4>
+      <ul style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li>Past buyers of your products</li>
+        <li>Browsers who have shopped but not purchased</li>
+        <li>Ask customers directly for their email IDs</li>
+        <li>Email <strong>preference center</strong> signups</li>
+        <li>Purchasing or <strong>renting names</strong> from list vendors</li>
+      </ul>
+    </div>
+    <div class="card-item">
+      <h4>🔧 Managing the List (Data Collected)</h4>
+      <ul style="padding-left:18px; font-size:0.82rem; line-height:1.7;">
+        <li>Customer <strong>name</strong> &amp; email address</li>
+        <li>Items <strong>purchased</strong> with details</li>
+        <li>Web <strong>pages browsed</strong></li>
+        <li><strong>Referring websites</strong> &amp; keywords used</li>
+        <li>Keep list <strong>clean</strong> &amp; reactivate inactive names</li>
+        <li>Avoid spamming — always use <strong>opt-in permission</strong></li>
+      </ul>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">8 Types of Email Marketing Campaigns</h4>
+  <table class="data-table dt-m4">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Campaign Type</th>
+        <th>Cadence</th>
+        <th>Purpose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td><strong>Promotional Blast</strong></td>
+        <td>Occasional / Event-driven</td>
+        <td>Drive immediate flash sales. Diwali offers, flash sales, special events.</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td><strong>Regular Mailing</strong></td>
+        <td>Weekly / Quarterly / Monthly</td>
+        <td>Maintain top-of-mind brand awareness and provide value.</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td><strong>Email Newsletters</strong></td>
+        <td>Scheduled recurring</td>
+        <td>Curated content, industry news, thought leadership updates.</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td><strong>Related Items Email</strong></td>
+        <td>Trigger-based</td>
+        <td>Cross-sell related items to a recently purchased product.</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td><strong>Notification Emails</strong></td>
+        <td>Immediate / Trigger</td>
+        <td>Order confirmation, shipping alerts, account activity notices.</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td><strong>Product Search Based</strong></td>
+        <td>Behavioral trigger</td>
+        <td>Emails based on products browsed but not purchased.</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td><strong>Permission / Opt-in</strong></td>
+        <td>Post sign-up</td>
+        <td>Welcome series for new subscribers who explicitly opted in.</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td><strong>Database / Segmented</strong></td>
+        <td>Scheduled by segment</td>
+        <td>Targeted emails based on purchase history, location, or behavior.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="box box-exam">
+    <div class="box-label">⭐ Email Key Metrics — Must Memorize (6 Metrics)</div>
+    <div class="formula-grid" style="margin-top:12px;">
+      <div class="formula-card">
+        <div class="fc-title">1. Delivery Rate</div>
+        <div class="fc-formula">(Delivered ÷ Sent) × 100</div>
+        <div class="fc-desc">Emails reaching inboxes without bouncing. Target: &gt;98%.</div>
+      </div>
+      <div class="formula-card">
+        <div class="fc-title">2. Open Rate</div>
+        <div class="fc-formula">(Opens ÷ Delivered) × 100</div>
+        <div class="fc-desc">Tracked via HTML pixel. Measures subject line effectiveness. Target: 20–25%.</div>
+      </div>
+      <div class="formula-card">
+        <div class="fc-title">3. Click-Through Rate (CTR)</div>
+        <div class="fc-formula">(Clicks ÷ Delivered) × 100</div>
+        <div class="fc-desc">Recipients who clicked a link. Measures CTA clarity. Target: 2–5%.</div>
+      </div>
+      <div class="formula-card">
+        <div class="fc-title">4. Conversion Rate (CVR)</div>
+        <div class="fc-formula">(Conversions ÷ Clicks) × 100</div>
+        <div class="fc-desc">Users who completed a purchase after clicking the email.</div>
+      </div>
+      <div class="formula-card">
+        <div class="fc-title">5. ROI</div>
+        <div class="fc-formula">((Revenue − Cost) ÷ Cost) × 100</div>
+        <div class="fc-desc">Financial yield of the email campaign. Industry average: 3600%!</div>
+      </div>
+      <div class="formula-card">
+        <div class="fc-title">6. Unsubscribe Rate</div>
+        <div class="fc-formula">(Unsubscribes ÷ Delivered) × 100</div>
+        <div class="fc-desc">Spike (&gt;0.5%) signals audience fatigue or irrelevant content.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.10 SOCIAL MEDIA ANALYTICS -->
+  <h3 class="topic-title" id="m4-analytics">4.10 Social Media Analytics</h3>
+
+  <div class="box box-def" style="border-left-color:var(--m4);">
+    <span class="def-term" style="color:var(--m4);">Definition — Social Media Analytics:</span><br>
+    "The process of <strong>gathering data from the large number of online conversations</strong> happening on virtual platforms and digital media and processing the same. The objective is to retrieve <strong>structured insights</strong> leading to <strong>informed decision making</strong>. This enables brands and organisations to take informed decisions and become customer-centric."
+  </div>
+
+  <h4 class="subtopic-title">5 Benefits of Social Media Analytics</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:3px solid var(--m4);">
+      <h4>🧠 Better Customer Interactivity</h4>
+      <p style="font-size:0.8rem;">Knowledge of consumer cognitive space through interaction data helps better segmentation &amp; targeting.</p>
+    </div>
+    <div class="card-item" style="border-top:3px solid var(--m4);">
+      <h4>⚔️ Competitive Advantage</h4>
+      <p style="font-size:0.8rem;">Track what stakeholders say about competitors. Develop product orientation accordingly.</p>
+    </div>
+    <div class="card-item" style="border-top:3px solid var(--m4);">
+      <h4>📊 Strategy Tweaks</h4>
+      <p style="font-size:0.8rem;">Optimize marketing strategies, communication programs, and marketing expenditure.</p>
+    </div>
+    <div class="card-item" style="border-top:3px solid #9d174d;">
+      <h4>🎯 Better Differentiation</h4>
+      <p style="font-size:0.8rem;">Better product and marketing differentiation &amp; positioning — offer greater customer value.</p>
+    </div>
+    <div class="card-item" style="border-top:3px solid #9d174d;">
+      <h4>🔮 Predict Consumer Behavior</h4>
+      <p style="font-size:0.8rem;">Spot patterns in social data to anticipate what consumers will want before they ask.</p>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">Social Media Analytics Tools (10 Key Tools)</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <strong>SAP Social Media Analytics by Netbase</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Enterprise-grade sentiment &amp; social listening</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <strong>Google Analytics</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Web + social traffic attribution</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid var(--m4); border-radius:0 8px 8px 0;">
+      <strong>Social Crawlytics</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Content sharing analysis across networks</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid #9d174d; border-radius:0 8px 8px 0;">
+      <strong>IBM Social Media Analytics</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Enterprise big data &amp; NLP analytics</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid #9d174d; border-radius:0 8px 8px 0;">
+      <strong>Buffer / Analyze</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Post scheduling + performance tracking</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid #9d174d; border-radius:0 8px 8px 0;">
+      <strong>Sprout Social</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Social inbox, publishing &amp; reporting</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid #831843; border-radius:0 8px 8px 0;">
+      <strong>Hootsuite</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Multi-platform scheduling &amp; monitoring</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid #831843; border-radius:0 8px 8px 0;">
+      <strong>Social Bakers</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">AI-powered social marketing suite</p>
+    </div>
+    <div class="card-item" style="border-left:4px solid #831843; border-radius:0 8px 8px 0;">
+      <strong>Quintly</strong>
+      <p style="font-size:0.78rem; margin-top:4px; color:var(--gray-600);">Benchmarking &amp; competitive comparison</p>
+    </div>
+  </div>
+
+  <div class="box box-exam" style="margin-top:16px;">
+    <div class="box-label">⭐ Two Primary Tracking Metrics in Social Analytics</div>
+    <div class="grid-2col" style="margin-top:8px;">
+      <div style="background:#fff; border:1px solid #fde68a; border-radius:8px; padding:14px;">
+        <strong>Insights</strong><br><span style="font-size:0.82rem;">Platform-native data: reach, impressions, engagement rate, follower growth, top posts.</span>
+      </div>
+      <div style="background:#fff; border:1px solid #fde68a; border-radius:8px; padding:14px;">
+        <strong>Competitive Benchmarking</strong><br><span style="font-size:0.82rem;">Compare your performance vs. industry peers and direct competitors across all platforms.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4.11 DESIGNING SOCIAL MEDIA CAMPAIGNS -->
+  <h3 class="topic-title" id="m4-campaigns">4.11 Designing Social Media Campaigns</h3>
+
+  <div class="box box-exam">
+    <div class="box-label">⭐ HIGH PRIORITY — Exam Case Study Topic: Indian Tourism Campaign</div>
+    This section is a frequent exam case study: "Design a social media campaign to promote Indian Tourism." Master the objectives and 13-step process below!
+  </div>
+
+  <h4 class="subtopic-title">4 Objectives of Social Media Marketing Campaigns</h4>
+  <div class="grid-4col">
+    <div class="card-item" style="border-top:4px solid var(--m4); text-align:center;">
+      <div style="font-size:1.6rem; margin-bottom:8px;">🏷️</div>
+      <strong>Improve Brand Awareness</strong>
+      <p style="font-size:0.78rem; margin-top:6px; color:var(--gray-600);">Reach new audiences &amp; establish brand visibility</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #9d174d; text-align:center;">
+      <div style="font-size:1.6rem; margin-bottom:8px;">🤝</div>
+      <strong>Connect with Your Audience</strong>
+      <p style="font-size:0.78rem; margin-top:6px; color:var(--gray-600);">Build community &amp; foster two-way dialogue</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid #831843; text-align:center;">
+      <div style="font-size:1.6rem; margin-bottom:8px;">🌐</div>
+      <strong>Increase Website Traffic</strong>
+      <p style="font-size:0.78rem; margin-top:6px; color:var(--gray-600);">Drive clicks from social feeds to your digital properties</p>
+    </div>
+    <div class="card-item" style="border-top:4px solid var(--m4); text-align:center;">
+      <div style="font-size:1.6rem; margin-bottom:8px;">💰</div>
+      <strong>Drive Sales</strong>
+      <p style="font-size:0.78rem; margin-top:6px; color:var(--gray-600);">Convert social engagement into commercial transactions</p>
+    </div>
+  </div>
+
+  <h4 class="subtopic-title">13-Step Process for Developing Social Media Campaigns</h4>
+  <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:16px 0;">
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid var(--m4); border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:var(--m4); color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">1</span>
+      <div><strong>Research your competition</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Analyze competitor campaigns, messaging, and engagement</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #9d174d; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:#9d174d; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">2</span>
+      <div><strong>Craft your strategy</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Define clear goals, KPIs, and campaign timeline</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid var(--m4); border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:var(--m4); color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">3</span>
+      <div><strong>Appeal to your target audience</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Understand psychographics, pain points, and desires</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #9d174d; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:#9d174d; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">4</span>
+      <div><strong>Choose content type &amp; format</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Video, carousel, story, reel, or static image?</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid var(--m4); border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:var(--m4); color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">5</span>
+      <div><strong>Manage campaign results</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Track KPIs in real-time and adjust budget allocation</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #9d174d; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:#9d174d; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">6</span>
+      <div><strong>Promote your content</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Use paid boosts, influencer shares, and cross-platform posting</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid var(--m4); border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:var(--m4); color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">7</span>
+      <div><strong>Promote ONE message throughout</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Consistent campaign narrative across all touchpoints</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #9d174d; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:#9d174d; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">8</span>
+      <div><strong>Balance promotional vs. non-promotional</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">80/20 rule: 80% value, 20% promotional content</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid var(--m4); border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:var(--m4); color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">9</span>
+      <div><strong>Ensure content is unique to your business</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Authentic brand voice — no generic stock content</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #9d174d; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:#9d174d; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">10</span>
+      <div><strong>Engage with your audience regularly</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Reply to comments, DMs, and mentions promptly</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid var(--m4); border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:var(--m4); color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">11</span>
+      <div><strong>Create a unique hashtag for your campaign</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">e.g., #IncredibleIndia — drives user-generated content</span></div>
+    </div>
+    <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #9d174d; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start;">
+      <span style="background:#9d174d; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">12</span>
+      <div><strong>Automate with scheduling software</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Use Buffer, Hootsuite, or Sprout Social for consistency</span></div>
+    </div>
+  </div>
+  <div style="background:#fff; border:1px solid var(--gray-200); border-left:5px solid #831843; border-radius:0 8px 8px 0; padding:12px 16px; display:flex; gap:12px; align-items:flex-start; margin-bottom:16px;">
+    <span style="background:#831843; color:#fff; border-radius:50%; width:28px; height:28px; display:flex; align-items:center; justify-content:center; font-weight:800; flex-shrink:0; font-size:0.8rem;">13</span>
+    <div><strong>Use live stream to your advantage</strong><br><span style="font-size:0.78rem; color:var(--gray-600);">Live events, product launches, Q&amp;A sessions — highest real-time engagement format</span></div>
+  </div>
+
+  <div class="box box-eg">
+    <div class="eg-label">💡 Case Study: Social Media Campaign for Indian Tourism</div>
+    <strong>Campaign Goal:</strong> Promote India as a global tourism destination.<br>
+    <strong>Platforms:</strong> Instagram (visual travel content), YouTube (travel vlogs), Twitter (#IncredibleIndia trending), Facebook (community groups).<br>
+    <strong>Content Strategy:</strong> 70% user-generated travel photos with hashtag #ExploreIndia, 20% destination spotlight reels, 10% promotional offers for tour packages.<br>
+    <strong>Influencers:</strong> Partner with travel bloggers and micro-influencers (100K–500K followers) for authentic eWoM.<br>
+    <strong>Analytics:</strong> Track reach, engagement rate, hashtag volume, and website traffic from social referrals.<br>
+    <strong>Campaign Hashtag:</strong> #IncredibleIndia2024 — drives organic UGC amplification.
+  </div>
+
 </section>
 
 <!-- ═══════════════════════════════════ -->
@@ -3820,6 +4883,524 @@ table.dt-m5 th { background-color: var(--m5); }
       <p>With third-party tracking cookies dying and strict regulations (GDPR, India's DPDP Act 2023), brands must build owned first-party data assets (permission-based email lists and direct customer loyalty apps).</p>
     </div>
   </div>
+
+  <!-- 5.7 THE CRYSTAL BALL & DATA ABSTRACTION -->
+  <h3 class="topic-title" id="m5-crystal">5.7 The "Crystal Ball" of Marketing &amp; Web Data Abstraction</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Core Philosophical Concept: Web Analytics as the "Crystal Ball"</div>
+    Web analytics is described as a marketer's <strong>"Crystal Ball"</strong> because it provides legitimate, scientifically verified insight into the consumer's cognitive space. Traditional marketers had to guess what consumers thought via expensive post-campaign focus groups. Digital analytics taps directly into live consumer intent: where they come from, what friction they encounter, and why they convert or abandon.
+  </div>
+
+  <div class="grid-2col">
+    <div class="card-item" style="border-top:4px solid var(--m5);">
+      <h4>🧠 What is Data Abstraction?</h4>
+      <p style="font-size:0.8rem; color:var(--gray-600); margin-bottom:8px;">A foundational computer science concept applied to business intelligence:</p>
+      <p style="font-size:0.75rem; line-height:1.6;"><strong>Definition:</strong> Data abstraction is the process of hiding raw, complex technical mechanics and presenting only the simplified, high-level logical insights required for decision-making.</p>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6; margin-top:6px;">
+        <li><strong>Better Code Quality &amp; Maintainability:</strong> Front-end reporting doesn't break when back-end server architecture changes.</li>
+        <li><strong>Scalability &amp; Usability:</strong> Marketers analyze <em>Sessions</em> and <em>Bounce Rates</em> without having to parse millions of raw HTTP GET requests, TCP/IP handshakes, and packet headers.</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m1);">
+      <h4>🌍 Everyday Examples of Data Abstraction</h4>
+      <div style="font-size:0.75rem; line-height:1.6; margin-bottom:10px;">
+        <strong>1. Smartphone Photography:</strong> When you press the shutter, abstraction hides the sensor electron charge accumulation, Bayer filter color interpolation, and ISP image sharpening. You simply see the finished photo.
+      </div>
+      <div style="font-size:0.75rem; line-height:1.6;">
+        <strong>2. ATM Cash Withdrawal:</strong> When you request $100, abstraction conceals the optical note thickness sensors, mechanical roller solenoids, and inter-bank clearing ledger protocols. You simply receive your cash.
+      </div>
+    </div>
+  </div>
+
+  <!-- 5.8 THE PYRAMID MODEL OF WEB ANALYTICS DATA -->
+  <h3 class="topic-title" id="m5-pyramid">5.8 The Pyramid Model of Web Analytics Data ★</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ High-Yield Exam Diagram: The Pyramid Trade-Off</div>
+    A classic exam question asks to explain the <strong>Pyramid Model</strong> and analyze the inverse trade-off between the <em>Volume of Available Data</em> and the <em>Strategic Business Value of Data</em>.
+  </div>
+
+  <div class="diagram-card">
+    <div class="diagram-header">
+      <span>Figure 5.1: The Pyramid Model of Web Analytics Data</span>
+      <span>Volume of Data (Expands Downwards) vs. Business Value (Expands Upwards)</span>
+    </div>
+
+    <div style="max-width:560px; margin:20px auto; text-align:center;">
+      <!-- LEVEL 5: APEX -->
+      <div style="background:#4c1d95; color:#ffffff; padding:12px; border-radius:8px 8px 0 0; font-weight:800; font-size:0.85rem; width:220px; margin:0 auto; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+        👑 5. Uniquely Identified Visitors<br><small style="font-weight:400; font-size:0.7rem;">Logged-in users, known emails, LTV history</small>
+      </div>
+      <!-- LEVEL 4 -->
+      <div style="background:#6d28d9; color:#ffffff; padding:12px; font-weight:800; font-size:0.85rem; width:300px; margin:3px auto; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+        👥 4. Unique Visitors<br><small style="font-weight:400; font-size:0.7rem;">Distinct humans identified by browser cookies</small>
+      </div>
+      <!-- LEVEL 3 -->
+      <div style="background:#7c3aed; color:#ffffff; padding:12px; font-weight:800; font-size:0.85rem; width:380px; margin:3px auto; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+        🔄 3. Visits (Sessions)<br><small style="font-weight:400; font-size:0.7rem;">Continuous browsing sessions on a web server</small>
+      </div>
+      <!-- LEVEL 2 -->
+      <div style="background:#8b5cf6; color:#ffffff; padding:12px; font-weight:800; font-size:0.85rem; width:460px; margin:3px auto; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+        📄 2. Page Views<br><small style="font-weight:400; font-size:0.7rem;">Visual rendering of complete web pages</small>
+      </div>
+      <!-- LEVEL 1: BASE -->
+      <div style="background:#a78bfa; color:#ffffff; padding:12px; border-radius:0 0 8px 8px; font-weight:800; font-size:0.85rem; width:540px; margin:3px auto; box-shadow:0 2px 6px rgba(0,0,0,0.15);">
+        💥 1. Hits (Raw Server File Requests)<br><small style="font-weight:400; font-size:0.7rem;">Images, CSS, scripts, HTML chunks — Highest Volume, Lowest Value</small>
+      </div>
+
+      <!-- INVERSE AXES -->
+      <div style="display:flex; justify-content:space-between; margin-top:16px; font-size:0.75rem; font-weight:800;">
+        <span style="color:#4c1d95;">⬆️ INCREASING STRATEGIC VALUE OF DATA</span>
+        <span style="color:#8b5cf6;">⬇️ INCREASING VOLUME OF RAW DATA</span>
+      </div>
+    </div>
+  </div>
+
+  <table class="data-table dt-m5">
+    <thead>
+      <tr>
+        <th>Pyramid Level</th>
+        <th>Technical Definition</th>
+        <th>Relative Volume</th>
+        <th>Strategic Marketing Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Hits</strong></td>
+        <td>Any request sent to a web server for any file (image, stylesheet, JS script, HTML snippet). A single webpage load can generate 80–120 hits.</td>
+        <td><strong>Massive</strong> (Millions)</td>
+        <td><strong>Near Zero</strong> (Useful only for IT server load &amp; bandwidth planning; tells nothing about user intent).</td>
+      </tr>
+      <tr>
+        <td><strong>2. Page Views</strong></td>
+        <td>The complete visual rendering of an entire web page inside a user's browser at a specific point in time.</td>
+        <td><strong>High</strong> (Hundreds of thousands)</td>
+        <td><strong>Low to Moderate</strong> (Indicates content consumption volume, but inflated by accidental page refreshes).</td>
+      </tr>
+      <tr>
+        <td><strong>3. Visits (Sessions)</strong></td>
+        <td>A collection of page views and interactions by a single user on a single web server during an uninterrupted active window (ends after 30 min of inactivity).</td>
+        <td><strong>Moderate</strong> (Tens of thousands)</td>
+        <td><strong>Moderate to High</strong> (Reveals complete user journey paths, site engagement duration, and navigation friction).</td>
+      </tr>
+      <tr>
+        <td><strong>4. Unique Visitors</strong></td>
+        <td>A distinct human being accessing a website within a specific timeframe, identified uniquely via a first-party browser cookie.</td>
+        <td><strong>Focused</strong> (Thousands)</td>
+        <td><strong>High</strong> (Calculates actual audience reach, customer acquisition costs, and brand market penetration).</td>
+      </tr>
+      <tr>
+        <td><strong>5. Uniquely Identified Visitors</strong></td>
+        <td>Authenticated users who have logged in with known identity (User ID, email, CRM record, transaction history, customer lifetime value).</td>
+        <td><strong>Narrowest</strong> (Hundreds to Thousands)</td>
+        <td><strong>Highest Gold Standard</strong> (Enables hyper-personalized marketing, retention strategies, predictive churn modeling, and 1-to-1 account management).</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 5.9 WEB DATA ABSTRACTIONS & VISITOR METRICS -->
+  <h3 class="topic-title" id="m5-abstractions">5.9 Web Data Abstractions &amp; High-Level Visitor Metrics</h3>
+  <div class="box box-def">
+    <span class="def-term">Web Data Abstractions (Precise Technical Semantics):</span>
+    <ul style="padding-left:16px; font-size:0.75rem; line-height:1.6; margin-top:6px;">
+      <li><strong>Website:</strong> A collection of interlinked web pages, including a host page, residing at the same network location (URL/domain).</li>
+      <li><strong>User / Visitor:</strong> A principal using a client browser to interactively retrieve and render web server resources.</li>
+      <li><strong>User Session:</strong> A delimited set of user clicks across one or more web servers.</li>
+      <li><strong>Server Session (Visit):</strong> A collection of user clicks to a <em>single</em> web server during a user session.</li>
+      <li><strong>Pageview:</strong> The visual rendering of a web page in a specific browser environment at a specific point in time (composed of frames, text, graphics, scripts).</li>
+      <li><strong>Clickstream:</strong> The sequential, chronological series of page-view requests and interactions made by a single user throughout their visit.</li>
+    </ul>
+  </div>
+
+  <h4 class="subtopic-title">The 7 High-Level Visitor Metrics &amp; Formulas:</h4>
+  <div class="grid-3col">
+    <div class="card-item" style="border-top:4px solid var(--m1);">
+      <h4>1. 👤 Unique Visitor</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">Counted when an individual accesses the site. Defined by a persistent client-side <strong>browser cookie</strong>. Unique across designated time periods (Daily, Weekly, Monthly).</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--success);">
+      <h4>2. 🎯 Conversion Rate (CR)</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">The percentage of users who complete any multi-step online activity.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        <strong>CR (%) = (Completers &divide; Starters) &times; 100</strong>
+      </div>
+      <p style="font-size:0.7rem; color:var(--gray-600); margin-top:4px;">Applies to checkouts, whitepaper downloads, webinar sign-ups.</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--danger);">
+      <h4>3. 🛒 Abandonment Rate</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">The percentage of users who start an intent action (e.g. adding items to cart) but leave without completing.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        <strong>Abandonment (%) = (Abandoned Visits &divide; Total Visits) &times; 100</strong>
+      </div>
+      <p style="font-size:0.7rem; color:var(--gray-600); margin-top:4px;">Example: 60 abandoned out of 300 = 20% abandonment.</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--warning);">
+      <h4>4. 📉 Attrition (Churn Rate)</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">Measurement of customers successfully converted who fail to be retained.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        <strong>Churn (%) = (Lost Customers &divide; Total Customers at Start) &times; 100</strong>
+      </div>
+      <ul style="padding-left:14px; font-size:0.7rem; line-height:1.5; margin-top:4px;">
+        <li><strong>Voluntary Churn:</strong> Customer actively cancels (poor service, switching to competitor).</li>
+        <li><strong>Involuntary Churn:</strong> Circumstances force cancellation (expired credit card, failed auto-debit).</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m5);">
+      <h4>5. 💖 Loyalty (Visits per Visitor)</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">The number of visits a visitor is likely to make over their lifetime. Reported as a discrete distribution (e.g., 100 visitors made 3 visits, 87 made 4 visits).</p>
+      <p style="font-weight:700; color:var(--danger); font-size:0.7rem; margin-top:4px;">Rule: NEVER double-count visitors across frequency buckets!</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m2);">
+      <h4>6. ⏱️ Frequency vs. 7. 📅 Recency</h4>
+      <ul style="padding-left:14px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>Frequency:</strong> Pace of activity generated by a visitor. Measured in <em>"Days Between Visits"</em>.</li>
+        <li><strong>Recency:</strong> Number of days elapsed since the visitor's <em>most recent visit or purchase</em>. Reported as visitors returning after "n" days.</li>
+        <li><em>Strategic Synergy:</em> Combining High Frequency + Low Recency identifies your Brand Champions. High Frequency + High Recency triggers an At-Risk Churn Alert!</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5.10 NEW VS RETURNING VISITORS -->
+  <h3 class="topic-title" id="m5-newret">5.10 New Visitors vs. Returning Visitors Deep Dive</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Exam Question: 4 Critical Differences Between New &amp; Returning Visitors</div>
+    Analyzing visitor maturity determines whether marketing spend is leaking into low-retention acquisition or building compounding customer lifetime value (LTV).
+  </div>
+
+  <table class="data-table dt-m5">
+    <thead>
+      <tr>
+        <th>Evaluation Dimension</th>
+        <th>New Visitors</th>
+        <th>Returning Visitors</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Purchase Intent &amp; Conversion</strong></td>
+        <td>Low intent; exploratory browsing. Typically converts at <strong>0.5% – 1.5%</strong>.</td>
+        <td>High commercial intent &amp; familiarity. Typically converts at <strong>3.5% – 6.0% (3&times; to 5&times; higher!)</strong>.</td>
+      </tr>
+      <tr>
+        <td><strong>2. Acquisition Cost (CAC)</strong></td>
+        <td>High marginal CAC (driven by paid search bids, social ads, and display campaigns).</td>
+        <td>Near zero marginal CAC (acquired via direct bookmarks, organic brand search, or retention email).</td>
+      </tr>
+      <tr>
+        <td><strong>3. On-Site Behavioral Flow</strong></td>
+        <td>High bounce rates (50–70%); explores Homepage, "About Us", and shipping policies to evaluate trust.</td>
+        <td>Low bounce rates; heads directly to product catalogs, search bars, wishlist, or cart.</td>
+      </tr>
+      <tr>
+        <td><strong>4. Strategic Marketing Action</strong></td>
+        <td>Build brand trust, offer first-order discounts, highlight customer reviews, provide social proof.</td>
+        <td>Deploy personalized recommendations, loyalty point rewards, VIP early-access, frictionless 1-click checkout.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="box box-eg">
+    <strong>Cohort Metric — "Mean Time to Return":</strong> The average number of days it takes for a new first-time visitor to come back to the site. If a fashion brand has a mean time to return of 14 days, automated re-engagement email sequences should trigger at Day 10–12 with personalized incentives before the customer cognitively drops off!
+  </div>
+
+  <!-- 5.11 DIMENSIONS VS METRICS -->
+  <h3 class="topic-title" id="m5-dimmet">5.11 Dimensions vs. Metrics — The 4 Fundamental Distinctions ★</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Classic Exam Question: Explain Any Four Differences Between Dimensions and Metrics</div>
+    Every single report in Google Analytics, Adobe Analytics, or Search Console is an intersection of Dimensions and Metrics.
+  </div>
+
+  <table class="data-table dt-m5">
+    <thead>
+      <tr>
+        <th>Distinction Parameter</th>
+        <th>Dimensions ("WHAT")</th>
+        <th>Metrics ("HOW MUCH")</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Conceptual Role</strong></td>
+        <td>Qualitative descriptor or categorical attribute that describes data characteristics. Answers: <em>Who, What, Where, or Which channel?</em></td>
+        <td>Quantitative measurement or numerical value. Answers: <em>How many, How long, How much, or At what rate?</em></td>
+      </tr>
+      <tr>
+        <td><strong>2. Data Formatting</strong></td>
+        <td>Text strings, geographic names, dates, or boolean values (e.g., <code>Desktop</code>, <code>India</code>, <code>Organic Search</code>, <code>/shoes</code>).</td>
+        <td>Numbers, percentages, currencies, or time durations (e.g., <code>1,420 sessions</code>, <code>$45.50 AOV</code>, <code>3m 24s</code>, <code>2.8% CR</code>).</td>
+      </tr>
+      <tr>
+        <td><strong>3. Table Architecture</strong></td>
+        <td>Dimensions populate the <strong>horizontal ROWS</strong> of a data table.</td>
+        <td>Metrics populate the <strong>vertical COLUMNS</strong> of a data table.</td>
+      </tr>
+      <tr>
+        <td><strong>4. Mathematical Operations</strong></td>
+        <td>Cannot be added, subtracted, or averaged (e.g., you cannot "average" the dimension <em>Country</em>). Used to slice and segment data.</td>
+        <td>Fully compatible with mathematical aggregations: sum, mean, standard deviation, and ratio calculations.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 5.12 WEB USAGE MINING -->
+  <h3 class="topic-title" id="m5-mining">5.12 Web Usage Mining: Server Logs to Pattern Intelligence</h3>
+  <div class="box box-def">
+    <span class="def-term">Web Usage Mining Definition:</span> The application of advanced statistical and data mining algorithms to processed server access logs in order to discover hidden behavioral patterns, user browsing clusters, and sequential navigation pathways.
+  </div>
+
+  <div class="grid-4col">
+    <div class="card-item" style="border-top:4px solid var(--m1);">
+      <h4>🛒 1. Association Rules</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">Discovers pages or items frequently accessed together within a session.</p>
+      <p style="font-size:0.7rem; color:var(--gray-600); margin-top:4px;"><em>Application:</em> Amazon "Frequently Bought Together" &amp; automated related content links.</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--m3);">
+      <h4>➡️ 2. Sequential Patterns</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">Discovers chronological order of user clicks across successive visits over time.</p>
+      <p style="font-size:0.7rem; color:var(--gray-600); margin-top:4px;"><em>Application:</em> Identifying the exact path that leads to high-value subscriptions.</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--success);">
+      <h4>👥 3. Clustering</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">Unsupervised grouping of visitors with similar navigation habits into clusters.</p>
+      <p style="font-size:0.7rem; color:var(--gray-600); margin-top:4px;"><em>Application:</em> Discovering natural customer personas (Bargain Hunters vs. Brand Enthusiasts).</p>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--danger);">
+      <h4>🏷️ 4. Classification</h4>
+      <p style="font-size:0.75rem; line-height:1.5;">Supervised machine learning that assigns users to predefined behavioral categories.</p>
+      <p style="font-size:0.7rem; color:var(--gray-600); margin-top:4px;"><em>Application:</em> Predicting churn probability or lead quality score.</p>
+    </div>
+  </div>
+
+  <div class="box box-exam" style="margin-top:16px;">
+    <div class="box-label">Pattern Analysis &amp; Site Redesign Architecture</div>
+    Once patterns are mined, three analytical techniques extract actionable business intelligence:
+    <ol style="padding-left:18px; font-size:0.75rem; line-height:1.6; margin-top:6px;">
+      <li><strong>Database Querying:</strong> Running SQL queries on clean log databases to filter specific user segments.</li>
+      <li><strong>OLAP Operations (Data Cubes):</strong> Slicing, dicing, and drill-downs across multi-dimensional cubes (Time &times; Geography &times; Product Category).</li>
+      <li><strong>Visual Dashboards:</strong> Converting complex clickstream matrices into intuitive funnel and sankey flow diagrams.</li>
+      <li><strong>Site Restructuring:</strong> Dynamically updating website taxonomy, menu structures, and checkout pathways to match actual user behavioral affinities.</li>
+    </ol>
+  </div>
+
+  <!-- 5.13 CRAWL ERRORS TAXONOMY -->
+  <h3 class="topic-title" id="m5-crawl-deep">5.13 Crawl Errors Taxonomy: Site Errors vs. URL Errors</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ High-Yield Technical Exam Question: Crawl Errors</div>
+    Crawling is the automated process where search engine bots (e.g. Googlebot) scan every webpage, index content, and follow hyperlinks. When bots encounter blockers, <strong>Crawl Errors</strong> occur. Google categorizes them into two distinct tiers:
+  </div>
+
+  <div class="grid-2col">
+    <div class="card-item" style="border-top:4px solid var(--danger);">
+      <h4>🚫 TIER 1: SITE ERRORS (Catastrophic — Entire Site Down)</h4>
+      <p style="font-size:0.75rem; color:var(--gray-600); margin-bottom:8px;">Errors that prevent search engine bots from accessing the <em>entire domain</em>:</p>
+      <ul style="padding-left:16px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>DNS Errors:</strong> Search engine bot cannot communicate with the DNS server to resolve domain name into an IP address.</li>
+        <li><strong>Server Errors (5xx Status Codes):</strong> Server takes too long to respond, crashes under high traffic, or has code bugs. Returned as <code>500 Internal Server Error</code> or <code>503 Service Unavailable</code>.</li>
+        <li><strong>Robots.txt Failure:</strong> Before crawling, Googlebot attempts to fetch <code>robots.txt</code>. If the server fails to return the file, Google <strong>postpones the entire crawl</strong> until the file can be reached!</li>
+      </ul>
+    </div>
+
+    <div class="card-item" style="border-top:4px solid var(--warning);">
+      <h4>⚠️ TIER 2: URL ERRORS (Specific Page Level)</h4>
+      <p style="font-size:0.75rem; color:var(--gray-600); margin-bottom:8px;">Errors that occur when a bot attempts to crawl a <em>specific URL</em>:</p>
+      <ul style="padding-left:16px; font-size:0.72rem; line-height:1.6;">
+        <li><strong>404 Not Found:</strong> Page does not exist. If content is permanently deleted, serve <code>410 Gone</code>. If similar content exists elsewhere, implement a <code>301 Redirect</code>.</li>
+        <li><strong>Submitted URL Error:</strong> Sitemap submits a URL that is contradictory (e.g. blocked in robots.txt or marked <code>noindex</code>).</li>
+        <li><strong>Mobile-Specific URL Errors:</strong> Faulty mobile redirects, unresponsive layouts, or blocking mobile CSS/JS.</li>
+        <li><strong>Malware Errors:</strong> Google detects injected malicious scripts; quarantines URL and warns users.</li>
+        <li><strong>Google News Errors:</strong> Missing headlines, absent article body, or inaccessible paywalls.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5.14 15 ANALYTICS TOOLS -->
+  <h3 class="topic-title" id="m5-tools">5.14 Comprehensive 15 Web Analytics Tools Guide</h3>
+  <table class="data-table dt-m5">
+    <thead>
+      <tr>
+        <th>Tool Name</th>
+        <th>Primary Classification</th>
+        <th>Core Strategic Capability &amp; Best Use Case</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Google Analytics (GA4)</strong></td>
+        <td>Universal Web Analytics</td>
+        <td>Event-driven cross-platform traffic reporting, audience demographics, channel attribution, conversion funnels.</td>
+      </tr>
+      <tr>
+        <td><strong>2. YouTube Analytics</strong></td>
+        <td>Video Performance Analytics</td>
+        <td>Watch time, audience retention graphs, CTR on video thumbnails, traffic sources, subscriber conversion.</td>
+      </tr>
+      <tr>
+        <td><strong>3. Facebook Insights</strong></td>
+        <td>Social Platform Analytics</td>
+        <td>Page likes, organic vs paid post reach, engagement rates, video 3-second views, follower demographics.</td>
+      </tr>
+      <tr>
+        <td><strong>4. Adobe Analytics</strong></td>
+        <td>Enterprise Customer Intelligence</td>
+        <td>Multi-channel attribution modeling, real-time predictive segmentation, deep CRM integration for Fortune 500.</td>
+      </tr>
+      <tr>
+        <td><strong>5. Amplitude</strong></td>
+        <td>Product &amp; Behavioral Analytics</td>
+        <td>Tracking user feature adoption, lifecycle retention curves, and product workflows inside SaaS and mobile apps.</td>
+      </tr>
+      <tr>
+        <td><strong>6. Contentsquare</strong></td>
+        <td>Digital Experience Analytics</td>
+        <td>Visualizing customer journey intent, zone-based page revenue attribution, scroll depth, and micro-frustrations.</td>
+      </tr>
+      <tr>
+        <td><strong>7. Crazy Egg</strong></td>
+        <td>Visual Interaction Analytics</td>
+        <td>Heat maps, confetti click tracking, scroll maps, overlay reports, and simple website A/B split testing.</td>
+      </tr>
+      <tr>
+        <td><strong>8. FullStory</strong></td>
+        <td>Digital Experience Intelligence</td>
+        <td>High-fidelity session replays, rage-click detection, dead-click analytics, and client-side error console logging.</td>
+      </tr>
+      <tr>
+        <td><strong>9. Glassbox</strong></td>
+        <td>Customer Journey Analytics</td>
+        <td>AI-driven session replay, anomaly detection, regulatory compliance recording, and mobile app performance.</td>
+      </tr>
+      <tr>
+        <td><strong>10. Heap</strong></td>
+        <td>Automated Event Capture</td>
+        <td>Retroactive data analysis; automatically captures every click, swipe, and form change without manual tagging.</td>
+      </tr>
+      <tr>
+        <td><strong>11. Hotjar</strong></td>
+        <td>UX &amp; Feedback Analytics</td>
+        <td>Interactive heat maps, visitor session recordings, on-page user feedback polls, and checkout form drop-off tracking.</td>
+      </tr>
+      <tr>
+        <td><strong>12. Mixpanel</strong></td>
+        <td>Event-Based Product Analytics</td>
+        <td>Deep funnel drop-off analysis, user cohort retention tracking, and product experimentation metrics.</td>
+      </tr>
+      <tr>
+        <td><strong>13. Pendo</strong></td>
+        <td>Product Onboarding &amp; Experience</td>
+        <td>In-app behavioral analytics combined with native in-app onboarding walkthrough guides and user sentiment polls.</td>
+      </tr>
+      <tr>
+        <td><strong>14. Clicky</strong></td>
+        <td>Real-Time Web Analytics</td>
+        <td>Immediate real-time visitor monitoring, dynamic heatmaps per user session, and automated uptime alerts.</td>
+      </tr>
+      <tr>
+        <td><strong>15. Statcounter</strong></td>
+        <td>Lightweight Traffic Tracking</td>
+        <td>Simple, cookieless web counter tracking page views, unique visitors, referral sources, and visitor paths for SMBs.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="box box-def">
+    <span class="def-term">Advanced Sensory Analytics:</span>
+    <strong>Heat Maps</strong> provide 2D color-coded visual representations of user click density (hot red = high clicks, cool blue = low clicks). <strong>Eye Tracking</strong> utilizes optical hardware sensors to track exact pupil gaze coordinates, identifying fixations, saccades, and visual attention blind spots before users even click!
+  </div>
+
+  <!-- 5.15 CASE STUDIES -->
+  <h3 class="topic-title" id="m5-cases">5.15 Real-World Case Studies &amp; Turnaround Strategy ★</h3>
+  <div class="box box-exam">
+    <div class="box-label">⭐ Case Study 1: "StyleKart" — High Traffic, Low Sales</div>
+    <strong>Context:</strong> StyleKart, an online fashion retailer, ran an aggressive festive Instagram influencer campaign. Traffic surged by 60%, but revenue only grew by 5%.<br>
+    <strong>Analytics Diagnostic Data:</strong>
+    <ul style="padding-left:16px; font-size:0.75rem; margin-top:4px;">
+      <li>Average time on site plummeted from 3.5 minutes to 1.2 minutes.</li>
+      <li>Exit rate on the Shipping Charges page reached a staggering 68%.</li>
+      <li>70% of total campaign visitors were first-time new visitors.</li>
+      <li>Mobile devices accounted for 80% of all campaign traffic; Search Console revealed multiple mobile-specific URL errors.</li>
+      <li>Returning visitors converted at 4.5%, whereas new campaign visitors converted at an abysmal 0.8%.</li>
+    </ul>
+    <strong>Strategic Solutions &amp; 30-Day Turnaround:</strong>
+    <ol style="padding-left:18px; font-size:0.75rem; line-height:1.6; margin-top:6px;">
+      <li><strong>Fix Mobile Friction First:</strong> Eliminate mobile redirect bugs; ensure responsive 1-column layout for product and checkout pages.</li>
+      <li><strong>Eliminate Hidden Shipping Shock:</strong> The 68% exit rate indicates price sticker shock. Move shipping calculators to product pages or offer a flat "Free Shipping above $499" threshold banner across the top header.</li>
+      <li><strong>Optimize New Visitor Onboarding:</strong> Since new visitors convert poorly (0.8%), greet them with an instant "15% Off First Order" welcome pop-up and prominent trust badges (easy returns, COD available).</li>
+      <li><strong>Deploy Behavioral Retargeting:</strong> Build an audience of visitors who viewed products but exited at shipping; retarget them on Instagram with dynamic ads offering free shipping codes.</li>
+    </ol>
+  </div>
+
+  <div class="box box-exam" style="margin-top:16px;">
+    <div class="box-label">⭐ Case Study 2: "LearnUp" — The Disappearing Learners</div>
+    <strong>Context:</strong> LearnUp, an EdTech SaaS selling monthly professional subscriptions, noticed its monthly churn rate spiked from 4% to 9% over two quarters.<br>
+    <strong>Analytics Diagnostic Data:</strong>
+    <ul style="padding-left:16px; font-size:0.75rem; margin-top:4px;">
+      <li>Recency analysis showed that 82% of cancelled users had not logged into the portal for 21+ consecutive days prior to cancellation.</li>
+      <li>Frequency data showed that healthy retained users log in consistently every 2–3 days.</li>
+      <li>15% of all cancellations were involuntary churn caused by failed auto-debit credit card charges.</li>
+    </ul>
+    <strong>Strategic Solutions &amp; Early-Warning System:</strong>
+    <ol style="padding-left:18px; font-size:0.75rem; line-height:1.6; margin-top:6px;">
+      <li><strong>Voluntary vs. Involuntary Churn Separation:</strong>
+        <ul style="padding-left:14px;">
+          <li><em>Involuntary Fix (15%):</em> Implement smart pre-dunning emails 5 days before card expiry, automated SMS alerts, and fallback UPI/NetBanking payment options.</li>
+          <li><em>Voluntary Fix (85%):</em> Build a predictive early-warning alert triggered whenever a user's Recency exceeds 10 days of inactivity!</li>
+        </ul>
+      </li>
+      <li><strong>Deploy Sequential Pattern Mining:</strong> Use web usage mining to identify course modules where drop-offs occur; revamp confusing video lessons or add gamified progress milestones.</li>
+      <li><strong>Executive Weekly Dashboard:</strong> Track: 1. Net Churn Rate (Voluntary vs Involuntary), 2. % Active Users with Recency &le; 3 Days, and 3. Monthly Recurring Revenue (MRR) Retention Rate.</li>
+    </ol>
+  </div>
+
+  <!-- 5.16 WORKED NUMERICALS & QUESTION BANK -->
+  <h3 class="topic-title" id="m5-numericals">5.16 Worked Numerical Problems &amp; Exam Solutions</h3>
+  <div class="grid-2col">
+    <div class="card-item" style="border-top:3px solid var(--m5);">
+      <h4>🧮 Numerical 1: Cart Abandonment Rate</h4>
+      <p style="font-size:0.75rem; line-height:1.5;"><strong>Problem:</strong> An e-store recorded 1,200 visits in a week. In 300 of these visits, users added items to cart but left without purchasing. Calculate abandonment rate and suggest 2 remedies.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        Abandonment Rate = (300 &divide; 1,200) &times; 100 = <strong>25.0%</strong>
+      </div>
+      <p style="font-size:0.72rem; color:var(--gray-700); margin-top:6px;"><strong>Remedies:</strong> 1. Enable guest checkout without mandatory registration. 2. Implement automated cart abandonment email sequence with discount voucher within 2 hours.</p>
+    </div>
+
+    <div class="card-item" style="border-top:3px solid var(--success);">
+      <h4>🧮 Numerical 2: Webinar Conversion Rate</h4>
+      <p style="font-size:0.75rem; line-height:1.5;"><strong>Problem:</strong> A webinar landing page had 2,500 visitors who clicked "Register". 375 completed registration. Calculate CR and comment vs. 20% benchmark.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        Conversion Rate = (375 &divide; 2,500) &times; 100 = <strong>15.0%</strong>
+      </div>
+      <p style="font-size:0.72rem; color:var(--gray-700); margin-top:6px;"><strong>Evaluation:</strong> Underperformed industry benchmark (15% vs 20%). Reduce registration form fields from 8 to 3 (Name, Work Email, Job Title) to recover 5% drop-off.</p>
+    </div>
+
+    <div class="card-item" style="border-top:3px solid var(--danger);">
+      <h4>🧮 Numerical 3: Quarterly Subscription Churn</h4>
+      <p style="font-size:0.75rem; line-height:1.5;"><strong>Problem:</strong> An OTT app had 8,000 paying users at start of quarter and 6,800 at the end (zero new additions). Calculate churn rate.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        Lost Users = 8,000 - 6,800 = 1,200<br>
+        Churn Rate = (1,200 &divide; 8,000) &times; 100 = <strong>15.0%</strong>
+      </div>
+      <p style="font-size:0.72rem; color:var(--gray-700); margin-top:6px;"><strong>Significance:</strong> Quarterly churn of 15% equates to an unsustainable annual churn of over 45%. Urgent retention loyalty incentives required.</p>
+    </div>
+
+    <div class="card-item" style="border-top:3px solid var(--warning);">
+      <h4>🧮 Numerical 4: Pyramid Data Evaluation</h4>
+      <p style="font-size:0.75rem; line-height:1.5;"><strong>Problem:</strong> Website reports 50,000 hits, 12,000 pageviews, 3,000 visits, and 1,800 unique visitors. Calculate Pages per Visit and Visits per Unique Visitor.</p>
+      <div class="box-formula" style="font-size:0.72rem; padding:6px 10px; margin-top:6px;">
+        Pages per Visit = 12,000 &divide; 3,000 = <strong>4.0 pages</strong><br>
+        Visits per Visitor = 3,000 &divide; 1,800 = <strong>1.67 visits</strong>
+      </div>
+      <p style="font-size:0.72rem; color:var(--gray-700); margin-top:6px;"><strong>Strategic Note:</strong> The 1,800 unique visitors represent real humans whose CAC can be calculated; the 50,000 hits are merely file requests.</p>
+    </div>
+  </div>
 </section>
 
 <!-- ═══════════════════════════════════ -->
@@ -3894,6 +5475,42 @@ table.dt-m5 th { background-color: var(--m5); }
       <div class="fc-title">12. Keyword Density</div>
       <div class="fc-formula">(Keyword Occurrences ÷ Total Word Count) × 100</div>
       <div class="fc-desc">The frequency with which a targeted keyword phrase appears inside on-page written content.</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="fc-title">13. Cart Abandonment Rate</div>
+      <div class="fc-formula">(Abandoned Visits ÷ Total Cart Visits) × 100</div>
+      <div class="fc-desc">Percentage of shopping sessions where items were added to cart but checkout was never completed.</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="fc-title">14. Customer Churn (Attrition) Rate</div>
+      <div class="fc-formula">(Lost Customers ÷ Total Customers at Start) × 100</div>
+      <div class="fc-desc">Rate at which subscribers or buyers terminate their commercial relationship within a given period.</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="fc-title">15. Advertising Frequency</div>
+      <div class="fc-formula">Total Impressions ÷ Unique Reach</div>
+      <div class="fc-desc">Average number of times a single distinct person is exposed to an advertisement (Frequency ≥ 1.0).</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="fc-title">16. Pages per Visit (Session Depth)</div>
+      <div class="fc-formula">Total Page Views ÷ Total Visits</div>
+      <div class="fc-desc">The average breadth of content explored per browsing session. Higher indicates deeper user engagement.</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="fc-title">17. Email Delivery Rate</div>
+      <div class="fc-formula">(Delivered Emails ÷ Total Sent Emails) × 100</div>
+      <div class="fc-desc">Proportion of sent marketing emails successfully received by recipient inboxes (excluding hard/soft bounces).</div>
+    </div>
+
+    <div class="formula-card">
+      <div class="fc-title">18. Email Open Rate</div>
+      <div class="fc-formula">(Unique Email Opens ÷ Delivered Emails) × 100</div>
+      <div class="fc-desc">Tracked via a 1x1 transparent tracking pixel. Reflects subject line effectiveness and sender trust.</div>
     </div>
   </div>
 
@@ -3998,11 +5615,16 @@ table.dt-m5 th { background-color: var(--m5); }
       <tr><td><strong>AMC</strong></td><td>Annual Maintenance Contract (After-sales)</td><td><strong>DOOH</strong></td><td>Digital Out-Of-Home (Electronic hoardings)</td></tr>
       <tr><td><strong>B2B</strong></td><td>Business-to-Business</td><td><strong>B2C</strong></td><td>Business-to-Consumer</td></tr>
       <tr><td><strong>D2C</strong></td><td>Direct-to-Consumer</td><td><strong>C2C</strong></td><td>Consumer-to-Consumer</td></tr>
+      <tr><td><strong>eWoM</strong></td><td>Electronic Word of Mouth (Earned social buzz)</td><td><strong>SMM</strong></td><td>Social Media Marketing (Influence &amp; conversions)</td></tr>
+      <tr><td><strong>MAB</strong></td><td>Multi-Author Blog (Collaborative institutional blog)</td><td><strong>OLAP</strong></td><td>Online Analytical Processing (Data cubes)</td></tr>
+      <tr><td><strong>DAM</strong></td><td>Digital Asset Management (Enterprise media repository)</td><td><strong>DNS</strong></td><td>Domain Name System (Resolves hostnames to IP)</td></tr>
+      <tr><td><strong>RWD</strong></td><td>Responsive Web Design (Fluid cross-device layout)</td><td><strong>SPA</strong></td><td>Single Page Application (Continuous vertical scroll)</td></tr>
+      <tr><td><strong>STP</strong></td><td>Segmentation, Targeting, Positioning</td><td><strong>POD/POP</strong></td><td>Points of Difference / Points of Parity</td></tr>
     </tbody>
   </table>
 
   <!-- 10 MODEL EXAM QUESTIONS -->
-  <h3 class="topic-title" id="exam-qa">🎯 10 Model Exam Questions &amp; Comprehensive Answers</h3>
+  <h3 class="topic-title" id="exam-qa">🎯 15 High-Yield Model Exam Questions &amp; Comprehensive Answers</h3>
 
   <div class="qa-card">
     <div class="qa-q">Q1: Which is broader — SEO or SEM? Explain the hierarchical relationship and strategic trade-offs between both.</div>
@@ -4120,6 +5742,70 @@ table.dt-m5 th { background-color: var(--m5); }
       &bull; <strong>Stage 1: Visibility:</strong> IT systems are used purely as monitoring and control tools to track physical processes, boost efficiency, and cut operational costs.<br>
       &bull; <strong>Stage 2: Mirroring Capability:</strong> The company begins substituting virtual activities for physical activities (e.g., virtual digital tracking replaces physical warehouse checks; online storefronts mirror physical stores).<br>
       &bull; <strong>Stage 3: New Customer Relationships:</strong> The firm exploits the virtual value matrix to create entirely new digital products, real-time personalization, and innovative business models that were impossible in physical space (e.g., algorithmic product recommendations, predictive inventory matching).
+    </div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q11: Explain the Pyramid Model of Web Analytics Data and discuss the trade-off between the volume and business value of data.</div>
+    <div class="qa-a">
+      <strong>The Pyramid Model</strong> visually organizes web data into 5 hierarchical tiers, illustrating an inverse relationship between data quantity and decision-making quality:<br><br>
+      &bull; <strong>Level 1 — Hits (Base):</strong> Every individual server file request (CSS, JS, images, fonts). Represents the <em>largest volume</em> (millions), but the <em>lowest business value</em>. Useful only for webmasters monitoring server bandwidth and network load.<br>
+      &bull; <strong>Level 2 — Page Views:</strong> Full visual rendering of a webpage inside a user browser. Reflects total page load volume, but can be distorted by accidental browser refreshes.<br>
+      &bull; <strong>Level 3 — Visits (Sessions):</strong> Uninterrupted browsing interactions on a single server by one user (terminates after 30 mins of inactivity). Shows navigation journeys and friction points.<br>
+      &bull; <strong>Level 4 — Unique Visitors:</strong> Distinct human individuals identified by persistent first-party browser cookies within a set timeframe. Enables accurate calculation of audience size and CAC.<br>
+      &bull; <strong>Level 5 — Uniquely Identified Visitors (Apex):</strong> Authenticated, logged-in users with verified profiles, emails, CRM records, and purchase history. Represents the <em>lowest data volume</em>, but the <em>highest strategic value</em>.<br><br>
+      <strong>The Fundamental Trade-Off:</strong> As you move UP the pyramid, raw data volume dramatically shrinks while actionable commercial intelligence, personalization power, and revenue impact exponentially increase.
+    </div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q12: Differentiate between Site Errors and URL Errors in search engine crawling. Give three examples of each and explain how website owners should fix them.</div>
+    <div class="qa-a">
+      <strong>1. Site Errors (Domain-Wide Failures):</strong> Prevent search engine crawlers (Googlebot) from accessing the entire website. These are high-severity emergencies:<br>
+      &bull; <em>DNS Errors:</em> Search engine cannot communicate with DNS server to resolve domain name to an IP. <strong>Fix:</strong> Verify domain registrar DNS routing and nameserver availability.<br>
+      &bull; <em>Server Errors (5xx: 500, 503):</em> Web server times out or crashes under excessive traffic loads. <strong>Fix:</strong> Upgrade server capacity, optimize database queries, or use a CDN (Cloudflare).<br>
+      &bull; <em>Robots.txt Failure:</em> Googlebot cannot fetch <code>robots.txt</code> due to server timeout. Google <em>postpones the entire crawl</em> to avoid indexing restricted content. <strong>Fix:</strong> Ensure <code>robots.txt</code> responds with HTTP 200 at the domain root.<br><br>
+      <strong>2. URL Errors (Page-Specific Failures):</strong> Affect only individual URLs, leaving the rest of the site crawlable:<br>
+      &bull; <em>404 Not Found:</em> Page is missing. <strong>Fix:</strong> If permanently deleted, serve <code>410 Gone</code>; if equivalent content exists on another page, apply a permanent <code>301 Redirect</code>.<br>
+      &bull; <em>Submitted URL Errors:</em> Sitemap contains URLs blocked by <code>robots.txt</code> or meta <code>noindex</code> tags. <strong>Fix:</strong> Remove blocking directives or exclude the URL from XML sitemap.<br>
+      &bull; <em>Mobile-Specific URL Errors:</em> Faulty device redirects or mobile viewport CSS bugs. <strong>Fix:</strong> Implement responsive web design (RWD) with consistent mobile/desktop HTML structure.
+    </div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q13: Differentiate between Voluntary Churn and Involuntary Churn in subscription business models (e.g., OTT or EdTech). Propose distinct strategies to combat both.</div>
+    <div class="qa-a">
+      <strong>Customer Attrition (Churn) Rate</strong> measures the percentage of converted customers who fail to renew their subscription: <code>Churn Rate = (Lost Customers &divide; Total Customers at Start) &times; 100</code>.<br><br>
+      <strong>1. Voluntary Churn (Active Cancellation):</strong> Occurs when a user deliberately terminates their subscription due to perceived lack of value, high pricing, poor user experience, or switching to a competitor.<br>
+      &bull; <em>Combat Strategy:</em> Deploy predictive <strong>Recency &amp; Frequency tracking</strong>. When a user has not logged in for 10+ days (high recency risk), trigger automated re-engagement email campaigns with personalized content recommendations. Offer pause options instead of outright cancellation.<br><br>
+      <strong>2. Involuntary Churn (Passive / Systemic Cancellation):</strong> Occurs when a user wants to remain subscribed, but circumstances force termination — such as expired credit/debit cards, failed auto-debit payments, bank OTP timeouts, or technical billing errors (accounts for 15–30% of total churn).<br>
+      &bull; <em>Combat Strategy:</em> Implement smart pre-dunning email reminders 7 days before card expiration, automated payment retry logic (smart dunning), seamless fallback to alternate payment gateways (UPI Autopay, NetBanking, digital wallets), and immediate SMS alerts with 1-click update links.
+    </div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q14: Explain the McKinsey Social Media Model (Monitor, Amplify, Respond, Lead) and how an enterprise executes each phase.</div>
+    <div class="qa-a">
+      The <strong>McKinsey Social Media Model</strong> provides a strategic 4-step framework for transforming social channels from broadcast megaphones into enterprise relationship engines:<br><br>
+      &bull; <strong>1. Monitor:</strong> Continuously listen to conversations across social media platforms, forums, and blogs using tools like Hootsuite, Brandwatch, or Social Mention. Track brand mentions, competitor sentiment, customer complaints, and emerging market trends.<br>
+      &bull; <strong>2. Amplify:</strong> Design highly shareable, valuable content (eWoM, infographics, behind-the-scenes video) that encourages brand advocates and influencers to distribute the message organically across their own trusted peer networks.<br>
+      &bull; <strong>3. Respond:</strong> Establish agile, real-time social customer service protocols. Address customer grievances within 15 minutes, humanize brand communication, and prevent negative customer experiences from escalating into viral PR crises.<br>
+      &bull; <strong>4. Lead:</strong> Drive proactive market conversations and community co-creation. Use social insights to innovate new product features, launch cultural movements (e.g., Dove's Real Beauty, Nike's Dream Crazier), and guide customer advocacy toward long-term brand equity.
+    </div>
+  </div>
+
+  <div class="qa-card">
+    <div class="qa-q">Q15: Case Study: StyleKart Apparel recorded a 60% traffic surge from an Instagram campaign but only a 5% increase in sales. Exit rate on the shipping page was 68%. Diagnose the core issues and formulate a 30-day turnaround plan.</div>
+    <div class="qa-a">
+      <strong>Diagnostic Analysis:</strong><br>
+      &bull; <em>Mismatch Between Traffic &amp; Intent:</em> The influencer campaign drove high-volume, low-intent exploratory traffic (70% new visitors converting at only 0.8% vs. 4.5% for returning visitors).<br>
+      &bull; <em>Checkout Friction (Sticker Shock):</em> A 68% exit rate specifically on the shipping charges page indicates that customers experienced unexpected, late-stage price inflation (surprise delivery fees at the final hurdle).<br>
+      &bull; <em>Mobile UX Breakdown:</em> 80% of traffic originated on mobile, where Google Search Console logged mobile-specific URL errors and slow loading times, triggering high abandonment.<br><br>
+      <strong>30-Day Turnaround Strategic Action Plan:</strong><br>
+      1. <strong>Days 1–7 (Technical Mobile Fixes):</strong> Fix all mobile viewport and redirect errors identified in Search Console; compress product imagery to achieve sub-2-second mobile load speeds.<br>
+      2. <strong>Days 8–15 (Transparent Pricing Architecture):</strong> Eliminate surprise fees. Introduce a prominent top banner: <em>"Free Express Shipping on Orders Over $499"</em>. Embed an upfront shipping cost estimator directly on individual product pages before checkout.<br>
+      3. <strong>Days 16–22 (New Visitor Onboarding &amp; Trust):</strong> Deploy a non-intrusive welcome overlay for first-time visitors offering an immediate 10% coupon code and highlighting trust badges (Easy 7-day returns, Cash on Delivery, 100% genuine guarantee).<br>
+      4. <strong>Days 23–30 (Behavioral Abandonment Retargeting):</strong> Set up automated dynamic retargeting ads on Instagram and WhatsApp targeted exclusively at users who added products to cart but dropped off on the shipping page, offering free shipping if completed within 24 hours.
     </div>
   </div>
 </section>

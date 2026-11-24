@@ -1876,3 +1876,160 @@ Email marketing is simultaneously:
 ---
 *Notes compiled from: 8 course PPTs + Class dictation + Syllabus (Course Code: MKTG733)*
 *Covers Modules 1, 2, 3 & 5 — Midterm Exam Focus*
+
+
+---
+
+# 📱 MODULE 4: SOCIAL MEDIA OPTIMIZATION (SMO) & MARKETING (20%)
+
+## 4.1 Introduction to Social Media Marketing (SMM)
+- **Definition:** SMM uses social media portals to positively influence consumers toward a website, company, brand, product, service, or person. The ultimate business goal is a **conversion** (purchase, lead, newsletter subscription, community sign-up).
+- **Social Media:** An umbrella term for web-based software and interactive services enabling users to connect online, exchange ideas, discuss, and participate in multi-directional social interactions.
+- **eWoM (Electronic Word of Mouth):** Consumer-to-consumer statements shared online about an event, product, service, or brand. Because messages appear from trusted third-party peers rather than corporate advertising, eWoM generates **Earned Media** (vs. Paid Media).
+- **Why Social Media?**
+  1. Deeper customer engagement
+  2. Proprietary behavioral insights
+  3. Customers are already online
+  4. Increased customer satisfaction & retention
+  5. Real-time feedback loop
+  6. Better product development
+  7. Brand evangelism (turning customers into promoters)
+  8. Scalable customer acquisition
+- **The McKinsey Social Media Model:**
+  `Monitor ➔ Amplify ➔ Respond ➔ Lead`
+  1. *Monitor:* Real-time social listening for brand mentions, competitor sentiment, and emerging trends.
+  2. *Amplify:* Designing viral, high-value content that advocates share across their personal networks.
+  3. *Respond:* Rapid social customer care (<15 min response time) to humanize the brand and diffuse PR crises.
+  4. *Lead:* Driving proactive cultural conversations, community co-creation, and thought leadership.
+
+## 4.2 The 10 Different Forms of Social Media
+1. **Social Bookmarking:** Saving, tagging, and organizing favorite web resources (Reddit, Slashdot, Digg).
+2. **Social Submission Sites:** Submitting links for communities to upvote, rate, and rank (LinkedIn, Flickr).
+3. **Forum & Discussion Boards:** Niche bulletin boards for structured topic conversations (Google Groups, Quora).
+4. **Media Sharing Sites:** Uploading, sharing, and commenting on multimedia (YouTube, SlideShare, Pinterest).
+5. **Review & Rating Sites:** Independent consumer evaluation platforms (TripAdvisor, Yelp, Google Reviews).
+6. **Social Network Sites:** Relationship-centric social utilities connecting personal networks (Facebook, Instagram).
+7. **Blogs:** Regularly updated informational web logs published in reverse chronological order (WordPress, Blogger).
+8. **Podcasts:** Episodic downloadable digital audio/video media series (Spotify Podcasts, Apple Podcasts).
+9. **Microblogging:** High-frequency, character-limited short-form broadcasting services (Twitter/X, Threads).
+10. **Wikis:** Collaborative web databases where anyone can contribute, edit, and curate content (Wikipedia).
+
+## 4.3 Advanced Facebook Marketing
+- **Facebook Applications Ecosystem:** Events, Marketplace, Groups, Notes, Deals, Developer APIs, Insights, Photos, Videos.
+- **Customizing Business Pages:** Custom vanity URL (achieved after 100 followers/fans), brand logo & cover banner, corporate blog RSS integration, custom tabs, event management.
+- **Facebook Social Plugins (Widgets):**
+  - *Recommendations:* Dynamic algorithmic suggestions based on friend activities.
+  - *Comments:* Allowing users to comment on external websites using their Facebook identity.
+  - *Activity Feed:* Live stream of friend actions on the brand's digital properties.
+  - *Friendpile:* Displays profile thumbnails of friends who already like or follow the brand.
+- **PPC Advertising on Facebook:** Sidebar ads, Sponsored Newsfeed posts, Stories carousel ads. Targeted by demographic, geographic, interest graphs, Lookalike Audiences, and Custom Audiences (email lists).
+
+## 4.4 Blogging & Content Marketing
+- **Blog (Weblog):** An interactive publication consisting of discrete posts displayed in reverse chronological order.
+- **Multi-Author Blogs (MABs):** Publications authored by universities, media houses, or enterprise teams with professional editorial standards.
+- **6 Key Types of Blogs:** Personal, Collaborative/Group, Microblogging (Twitter/Tumblr), Corporate/Organizational (Internal culture or external PR/SEO), Aggregated ("Planet" blogs), and Genre Blogs (Travel, Tech, Fashion, Food).
+- **Monetization Mechanics:** Google AdSense (display contextual ads to earn CPC/CPM commission), affiliate marketing links, sponsored reviews, digital product sales.
+- **WordPress Prototyping:** The gold-standard CMS platform enabling open-source theme customization, SEO plugins (Yoast/RankMath), and e-commerce integration (WooCommerce).
+
+## 4.5 Twitter & LinkedIn Marketing
+- **Twitter Marketing:** Fast-paced microblogging (400M+ active users). Best practices include tweeting during peak engagement windows, trending hashtag curation, interactive polls, advanced search listening, and direct customer care.
+- **LinkedIn B2B Marketing:** The premier professional social network. Used for B2B lead generation, recruitment, account-based marketing (ABM), thought leadership by executives, Matched Audiences, sponsored InMail, and LinkedIn Sales Navigator.
+
+## 4.6 13-Step Social Media Campaign Framework
+1. Research competitive landscape & audience white space
+2. Define SMART campaign objectives (Awareness, Traffic, Leads, Sales)
+3. Profile target audience buyer personas
+4. Select content formats (video, reels, carousels, infographics)
+5. Establish unified campaign core message
+6. Balance 80/20 rule (80% educational/entertaining, 20% direct promotional)
+7. Develop unique branded campaign hashtag
+8. Create automated content publishing calendar
+9. Leverage live streams for authentic Q&A
+10. Partner with relevant micro and macro influencers
+11. Run targeted paid social ads for amplification
+12. Actively engage with comments and user-generated content (UGC)
+13. Measure campaign KPIs (Reach, Engagement Rate, ROAS, Conversions)
+- **Indian Tourism Case Study:** Executing the *"Incredible India"* digital campaign using state-specific hashtag storytelling, UGC contests, 360-degree virtual VR temple tours, and food influencer culinary trails.
+
+---
+
+# 📊 MODULE 5: WEB ANALYTICS & EMERGING TRENDS (25% ★)
+
+## 5.1 The "Crystal Ball" & Web Data Abstractions
+- **The Crystal Ball:** Web analytics is the marketer's crystal ball because it taps directly into the live consumer cognitive space — observing unbiased behavioral intent rather than post-rationalized survey answers.
+- **Data Abstraction:** Simplifying complex backend architectures into manageable, high-level business metrics.
+  - *Example 1:* Smartphone photography abstracts sensor electron accumulation and signal processing.
+  - *Example 2:* ATM cash withdrawal abstracts mechanical note counters and banking ledger synchronization.
+  - *In Web Analytics:* Marketers review *Sessions* and *Conversions* without needing to parse millions of raw TCP packets and HTTP headers.
+- **Core Abstraction Definitions:**
+  - *Website:* Interlinked web pages hosted at a single network domain.
+  - *User/Visitor:* Individual using a browser client to access server files.
+  - *User Session:* Delimited set of clicks across one or more servers.
+  - *Server Session (Visit):* User interactions on a single server terminated after 30 minutes of inactivity.
+  - *Pageview:* Visual rendering of a full webpage inside a browser.
+  - *Clickstream:* Sequential chronological series of page requests made by a user during a visit.
+
+## 5.2 The Pyramid Model of Web Analytics Data
+```
+               ▲  [LEVEL 5: Uniquely Identified Visitors]  (Apex - Lowest Volume, Highest Value)
+              / \       - Logged-in users, known emails, LTV history
+             /   \  [LEVEL 4: Unique Visitors]
+            /     \     - Distinct individuals identified by browser cookies
+           /       \  [LEVEL 3: Visits / Sessions]
+          /         \   - Continuous user journeys on a web server
+         /           \  [LEVEL 2: Page Views]
+        /             \ - Visual rendering of complete web pages
+       /               \  [LEVEL 1: Hits]  (Base - Highest Volume, Lowest Value)
+      /_________________\   - Raw server requests for images, CSS, scripts
+```
+- **The Fundamental Trade-Off:** As you ascend the pyramid from Hits to Uniquely Identified Visitors, the *Volume of Available Data* drops exponentially, while the *Strategic Commercial Value* rises exponentially.
+
+## 5.3 High-Level Visitor Metrics & Formulas
+1. **Conversion Rate (CR):** `(Completers ÷ Starters) × 100`
+2. **Abandonment Rate:** `(Abandoned Visits ÷ Total Visits) × 100`
+3. **Customer Churn (Attrition) Rate:** `(Lost Customers ÷ Starting Customers) × 100`
+   - *Voluntary Churn:* Customer deliberately cancels subscription (dissatisfaction, competitor switch).
+   - *Involuntary Churn:* Technical failure (expired card, failed auto-debit, billing glitch).
+4. **Loyalty (Visits per Visitor):** Discrete distribution of lifetime visits per user. Never double-count visitors across frequency buckets!
+5. **Frequency:** Activity pace measured in *"Days Between Visits"*.
+6. **Recency:** Days elapsed since the *most recent visit or purchase*. The primary early-warning metric for predicting subscriber churn.
+
+## 5.4 New vs. Returning Visitors
+- **New Visitors:** Exploratory, lower intent, conversion rate ~0.5%–1.5%, high bounce rate, requires trust-building (welcome discounts, social proof).
+- **Returning Visitors:** High commercial intent, conversion rate ~3.5%–6.0% (3x–5x higher!), zero marginal CAC, requires loyalty perks and frictionless 1-click checkout.
+- **Mean Time to Return:** Average days taken for a first-time visitor to return. Dictates optimal timing for re-engagement email and retargeting campaigns.
+
+## 5.5 Dimensions vs. Metrics (The 4 Core Distinctions)
+1. **Concept:** Dimension answers "WHAT / WHO / WHERE" (categorical descriptor). Metric answers "HOW MUCH / HOW MANY" (numerical measurement).
+2. **Data Type:** Dimension is text/categorical (Country, Device, Campaign). Metric is numeric/quantitative (Sessions, Bounce Rate, Revenue).
+3. **Table Position:** Dimensions form the **Rows**; Metrics form the **Columns**.
+4. **Operations:** Metrics can be mathematically aggregated (summed, averaged, divided); Dimensions cannot be summed (used for grouping/filtering).
+
+## 5.6 Web Usage Mining
+- **Definition:** Applying statistical algorithms to processed server access logs to uncover navigation patterns.
+- **4 Core Mining Techniques:**
+  1. *Association Rules:* Identifies pages or products frequently browsed together (Amazon "Frequently Bought Together").
+  2. *Sequential Patterns:* Discovers chronological page order across successive visits over time.
+  3. *Clustering:* Unsupervised grouping of visitors into behavioral clusters/personas.
+  4. *Classification:* Supervised machine learning predicting whether a user will convert or churn.
+- **Pattern Analysis:** SQL query mechanisms, OLAP (Online Analytical Processing) multi-dimensional data cubes, and visual Sankey flow diagrams used to dynamically redesign site navigation.
+
+## 5.7 Crawl Errors Taxonomy: Site Errors vs. URL Errors
+- **Site Errors (Entire Domain Blocked):**
+  - *DNS Errors:* Crawler cannot communicate with DNS server to resolve IP address.
+  - *Server Errors (5xx):* Web server crashes, timeouts, 500 Internal Error, 503 Service Unavailable.
+  - *Robots.txt Failure:* Crawler cannot fetch `robots.txt`. Google *postpones the entire crawl*!
+- **URL Errors (Page-Specific):**
+  - *404 Not Found:* Missing page (serve 410 if gone; 301 if moved).
+  - *Submitted URL Errors:* Sitemap submits URLs blocked by robots.txt or marked `noindex`.
+  - *Mobile-Specific Errors:* Faulty mobile redirects, viewport CSS errors.
+  - *Malware Errors:* Injected scripts detected; site quarantined.
+  - *Google News Errors:* Missing headlines or paywall blocks.
+
+## 5.8 15 Web Analytics Tools Taxonomy
+- Universal Traffic: **Google Analytics (GA4)**, **Adobe Analytics**, **Clicky**, **Statcounter**.
+- Visual UX & Heatmaps: **Crazy Egg**, **Hotjar**, **Contentsquare**, **FullStory**, **Glassbox**.
+- Product & Retention: **Amplitude**, **Mixpanel**, **Heap**, **Pendo**.
+- Platform Social: **Facebook Insights**, **YouTube Analytics**.
+
+---
